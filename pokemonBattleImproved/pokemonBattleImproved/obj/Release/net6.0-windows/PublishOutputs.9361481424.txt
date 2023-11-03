@@ -1,0 +1,5 @@
+C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\bin\Release\net6.0-windows\publish\pokemonBattleImproved.exe
+C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\bin\Release\net6.0-windows\publish\pokemonBattleImproved.dll
+C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\bin\Release\net6.0-windows\publish\pokemonBattleImproved.deps.json
+C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\bin\Release\net6.0-windows\publish\pokemonBattleImproved.runtimeconfig.json
+C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\bin\Release\net6.0-windows\publish\pokemonBattleImproved.pdb
