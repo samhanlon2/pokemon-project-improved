@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Pikachu Button 90x96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pikachu Button 90x96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elygem Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elygem Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Button 120x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Button 120x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinarak Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarak Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elygem Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elygem Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Button 100x133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Button 100x133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pikachu Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pikachu Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charmander Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charmander Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zubat Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zubat Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated_bike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated_bike1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Image 145x145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Image 145x145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squirtle Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squirtle Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squirtle Button 90x70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squirtle Button 90x70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NicePng_pokeball-png_124701" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NicePng_pokeball-png_124701.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elygem Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elygem Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elygem Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elygem Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandshrewfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandshrewfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charmanderback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charmanderback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Image 245x245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Image 245x245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sandshrew Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sandshrew Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sandshrew Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sandshrew Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sandshrew Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sandshrew Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charmander Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charmander Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Froakie Button 90x94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Froakie Button 90x94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NicePng_pokeball-png_1247011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NicePng_pokeball-png_124701.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinarak Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarak Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shinx Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shinx Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charmanderfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charmanderfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokemon logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokemon logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charmander Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charmander Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squirtle Button 120x93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squirtle Button 120x93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pikachu Button 120x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pikachu Button 120x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Image 160x1601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Image 160x1601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rowlet Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rowlet Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rowlet Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rowlet Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Button 80x106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Button 80x106.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Froakie Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Froakie Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Button 65x86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Button 65x86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ocean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ocean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokeBall Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokeBall Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zubat Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zubat Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokemon logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokemon logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evee Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evee Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zubat Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zubat Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rowlet Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rowlet Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinarak Button 120x120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarak Button 120x120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Froakie Button 120x125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Froakie Button 120x125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandshrewback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandshrewback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shinx Button 90x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shinx Button 90x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shinx Image 160x160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shinx Image 160x160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokeBall Image 245x245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokeBall Image 245x245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokemonSign Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokemonSign Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lugia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lugia.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Card Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokeBall Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokeBall Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WEHATEBINICLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WEHATEBINICLE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axewback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axewback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axewfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axewfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eeveeback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eeveeback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eeveefront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eeveefront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elgyemback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elgyemback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elgyemfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elgyemfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="froakieback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frokieback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="froakiefront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\froakiefront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pikachuback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikachuback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pikachufront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikachufront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rowletback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowletback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rowletfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowletfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shinxback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shinxback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shinxfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shinxfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinarakback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarakback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinarakfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarakfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squirtleback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squirtleback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squirtlefront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squirtlefront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zubatback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zubatback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zubatfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zubatfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

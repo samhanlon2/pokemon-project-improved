@@ -46,9 +46,10 @@
             // 
             pokemonLabel.BackColor = System.Drawing.Color.Transparent;
             pokemonLabel.Image = global::pokemonBattleImproved.Properties.Resources.PokemonSign_Image;
-            pokemonLabel.Location = new System.Drawing.Point(-53, -84);
+            pokemonLabel.Location = new System.Drawing.Point(-46, -63);
+            pokemonLabel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             pokemonLabel.Name = "pokemonLabel";
-            pokemonLabel.Size = new System.Drawing.Size(371, 280);
+            pokemonLabel.Size = new System.Drawing.Size(325, 210);
             pokemonLabel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pokemonLabel.TabIndex = 10;
             pokemonLabel.TabStop = false;
@@ -57,11 +58,12 @@
             // 
             this.AttackButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.AttackButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.AttackButton.Font = new System.Drawing.Font("Broadway", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AttackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AttackButton.ForeColor = System.Drawing.Color.Firebrick;
-            this.AttackButton.Location = new System.Drawing.Point(377, 578);
+            this.AttackButton.Location = new System.Drawing.Point(330, 434);
+            this.AttackButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AttackButton.Name = "AttackButton";
-            this.AttackButton.Size = new System.Drawing.Size(212, 78);
+            this.AttackButton.Size = new System.Drawing.Size(186, 58);
             this.AttackButton.TabIndex = 5;
             this.AttackButton.Text = "Attack";
             this.AttackButton.UseVisualStyleBackColor = false;
@@ -69,20 +71,22 @@
             // 
             // EnemyHealthBar
             // 
-            this.EnemyHealthBar.Location = new System.Drawing.Point(844, 478);
+            this.EnemyHealthBar.Location = new System.Drawing.Point(738, 358);
+            this.EnemyHealthBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnemyHealthBar.Name = "EnemyHealthBar";
-            this.EnemyHealthBar.Size = new System.Drawing.Size(387, 46);
+            this.EnemyHealthBar.Size = new System.Drawing.Size(339, 34);
             this.EnemyHealthBar.TabIndex = 11;
             this.EnemyHealthBar.Value = 100;
             // 
             // playerBox1
             // 
             this.playerBox1.BackColor = System.Drawing.Color.Transparent;
-            this.playerBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.playerBox1.Location = new System.Drawing.Point(189, 279);
+            this.playerBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.playerBox1.Location = new System.Drawing.Point(165, 209);
+            this.playerBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.playerBox1.Name = "playerBox1";
-            this.playerBox1.Size = new System.Drawing.Size(218, 245);
-            this.playerBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.playerBox1.Size = new System.Drawing.Size(191, 184);
+            this.playerBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.playerBox1.TabIndex = 8;
             this.playerBox1.TabStop = false;
             // 
@@ -90,9 +94,10 @@
             // 
             this.AttackPokeballPicture.BackColor = System.Drawing.Color.Transparent;
             this.AttackPokeballPicture.Image = global::pokemonBattleImproved.Properties.Resources.WEHATEBINICLE;
-            this.AttackPokeballPicture.Location = new System.Drawing.Point(930, 182);
+            this.AttackPokeballPicture.Location = new System.Drawing.Point(814, 136);
+            this.AttackPokeballPicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AttackPokeballPicture.Name = "AttackPokeballPicture";
-            this.AttackPokeballPicture.Size = new System.Drawing.Size(218, 245);
+            this.AttackPokeballPicture.Size = new System.Drawing.Size(191, 184);
             this.AttackPokeballPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AttackPokeballPicture.TabIndex = 4;
             this.AttackPokeballPicture.TabStop = false;
@@ -101,11 +106,12 @@
             // 
             this.HealButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.HealButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.HealButton.Font = new System.Drawing.Font("Broadway", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HealButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HealButton.ForeColor = System.Drawing.Color.Firebrick;
-            this.HealButton.Location = new System.Drawing.Point(70, 578);
+            this.HealButton.Location = new System.Drawing.Point(61, 434);
+            this.HealButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HealButton.Name = "HealButton";
-            this.HealButton.Size = new System.Drawing.Size(212, 78);
+            this.HealButton.Size = new System.Drawing.Size(186, 58);
             this.HealButton.TabIndex = 12;
             this.HealButton.Text = "Heal";
             this.HealButton.UseVisualStyleBackColor = false;
@@ -113,9 +119,10 @@
             // 
             // PlayerHealthBar
             // 
-            this.PlayerHealthBar.Location = new System.Drawing.Point(92, 212);
+            this.PlayerHealthBar.Location = new System.Drawing.Point(80, 159);
+            this.PlayerHealthBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PlayerHealthBar.Name = "PlayerHealthBar";
-            this.PlayerHealthBar.Size = new System.Drawing.Size(387, 46);
+            this.PlayerHealthBar.Size = new System.Drawing.Size(339, 34);
             this.PlayerHealthBar.TabIndex = 13;
             this.PlayerHealthBar.Value = 100;
             // 
@@ -123,18 +130,19 @@
             // 
             this.DialogueBox.BackColor = System.Drawing.Color.SteelBlue;
             this.DialogueBox.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DialogueBox.Location = new System.Drawing.Point(566, 293);
+            this.DialogueBox.Location = new System.Drawing.Point(495, 220);
+            this.DialogueBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DialogueBox.Multiline = true;
             this.DialogueBox.Name = "DialogueBox";
-            this.DialogueBox.Size = new System.Drawing.Size(176, 195);
+            this.DialogueBox.Size = new System.Drawing.Size(154, 147);
             this.DialogueBox.TabIndex = 14;
             // 
             // BattlePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(1403, 934);
+            this.ClientSize = new System.Drawing.Size(1228, 700);
             this.Controls.Add(this.DialogueBox);
             this.Controls.Add(this.PlayerHealthBar);
             this.Controls.Add(this.playerBox1);
@@ -143,6 +151,7 @@
             this.Controls.Add(pokemonLabel);
             this.Controls.Add(this.AttackButton);
             this.Controls.Add(this.AttackPokeballPicture);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BattlePage";
             this.RightToLeftLayout = true;
             this.Text = "battlePage";
