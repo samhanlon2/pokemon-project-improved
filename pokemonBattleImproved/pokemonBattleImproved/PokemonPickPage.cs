@@ -220,7 +220,7 @@ namespace pokemonBattleImproved
 
 
             // name label change
-            PokemonProfileName.Text = "Evee";
+            PokemonProfileName.Text = "Eevee";
             PokemonProfileName1.Text = " イーブイ ";
 
 

@@ -25,17 +25,17 @@ namespace pokemonBattleImproved
             //Task.Delay(2000);
             //playerBox1.Image = Properties.Resources.sandshrewback;
             
-            if (getpkname == "firesalamander") { charmanderWait(); }
-            else if (getpkname == "technobot") { elgyemWait(); }
-            else if (getpkname == "normalfox") { eeveeWait(); }
-            else if (getpkname == "waterfrog") { froakieWait(); }
-            else if (getpkname == "themascot") { pikaWait(); }
-            else if (getpkname == "weedowl") { rowletWait(); }
-            else if (getpkname == "sandyrew") { sandshrewWait(); }
-            else if (getpkname == "thespider") { spinarakwWait(); }
-            else if (getpkname == "waterturtle") { squirtleWait(); }
-            else if (getpkname == "darkbat") { zubatWait(); }
-            else if (getpkname == "waterlion") { shinxWait(); }
+            if (getpkname == "charmander") { charmanderWait(); }
+            else if (getpkname == "elhyem") { elgyemWait(); }
+            else if (getpkname == "eevee") { eeveeWait(); }
+            else if (getpkname == "froakie") { froakieWait(); }
+            else if (getpkname == "pikachu") { pikaWait(); }
+            else if (getpkname == "rowlet") { rowletWait(); }
+            else if (getpkname == "sandshrew") { sandshrewWait(); }
+            else if (getpkname == "spinarack") { spinarakwWait(); }
+            else if (getpkname == "squirtle") { squirtleWait(); }
+            else if (getpkname == "zubat") { zubatWait(); }
+            else if (getpkname == "shinx") { shinxWait(); }
         }
 
         private void Form2_Load(object sender, EventArgs e)
