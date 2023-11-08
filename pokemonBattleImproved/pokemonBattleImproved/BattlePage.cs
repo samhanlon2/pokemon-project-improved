@@ -26,7 +26,7 @@ namespace pokemonBattleImproved
             //playerBox1.Image = Properties.Resources.sandshrewback;
             
             if (getpkname == "charmander") { charmanderWait(); }
-            else if (getpkname == "elhyem") { elgyemWait(); }
+            else if (getpkname == "elgyem") { elgyemWait(); }
             else if (getpkname == "eevee") { eeveeWait(); }
             else if (getpkname == "froakie") { froakieWait(); }
             else if (getpkname == "pikachu") { pikaWait(); }
