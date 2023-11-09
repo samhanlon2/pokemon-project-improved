@@ -623,9 +623,29 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sandshrewbackalolan {
+            get {
+                object obj = ResourceManager.GetObject("sandshrewbackalolan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sandshrewfront {
             get {
                 object obj = ResourceManager.GetObject("sandshrewfront", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sandshrewfrontalolan {
+            get {
+                object obj = ResourceManager.GetObject("sandshrewfrontalolan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
