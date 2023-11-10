@@ -145,9 +145,10 @@ namespace pokemonBattleImproved
         }
         public async void sandshrewWait()
         {
-            playerBox1.Image = Properties.Resources.sandshrewfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.sandshrewback;
+            shinyChance();
+            //playerBox1.Image = Properties.Resources.sandshrewfront;
+            //await Task.Delay(2000);
+            //playerBox1.Image = Properties.Resources.sandshrewback;
         }
         public async void shinxWait()
         {
@@ -172,6 +173,26 @@ namespace pokemonBattleImproved
             playerBox1.Image = Properties.Resources.zubatfront;
             await Task.Delay(2000);
             playerBox1.Image = Properties.Resources.zubatback;
+        }
+        
+        public async void shinyChance() //chance of shiny
+        {
+            Random rnd = new Random();
+            int randomNumber = rnd.Next(1, 25); //random chance between 1-2
+
+            if (randomNumber == 2) 
+            {
+                
+                playerBox1.Image = Properties.Resources.sandshrewfrontalolan;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.sandshrewbackalolan;
+            }
+            else 
+            {
+                playerBox1.Image = Properties.Resources.sandshrewfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.sandshrewback;
+            }
         }
     }
 }
