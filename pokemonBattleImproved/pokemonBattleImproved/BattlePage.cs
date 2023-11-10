@@ -175,7 +175,7 @@ namespace pokemonBattleImproved
             playerBox1.Image = Properties.Resources.zubatback;
         }
         
-        public async void shinyChance()
+        public async void shinyChance() //chance of shiny
         {
             Random rnd = new Random();
             int randomNumber = rnd.Next(1, 25); //random chance between 1-2
