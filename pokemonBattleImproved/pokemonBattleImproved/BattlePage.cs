@@ -14,12 +14,16 @@ namespace pokemonBattleImproved
     {
 
         int HP = 10;
+        bool shiny;
+        
         public BattlePage()
         {
             InitializeComponent();
         }
         public BattlePage(string getpkname)
         {
+            shiny = shinyChance();
+
             InitializeComponent();
             //playerBox1.Image = Properties.Resources.sandshrewfront;
             //Task.Delay(2000);
@@ -32,7 +36,11 @@ namespace pokemonBattleImproved
             else if (getpkname == "pikachu") { pikaWait(); }
             else if (getpkname == "rowlet") { rowletWait(); }
             else if (getpkname == "sandshrew") { sandshrewWait(); }
+
             else if (getpkname == "spinarak") { spinarakWait(); }
+
+            
+
             else if (getpkname == "squirtle") { squirtleWait(); }
             else if (getpkname == "zubat") { zubatWait(); }
             else if (getpkname == "shinx") { shinxWait(); }
@@ -91,107 +99,205 @@ namespace pokemonBattleImproved
                 MessageBox.Show("Binacle beaten, you win!");
             }
         }
-        public void SetPokemon(string imputPlayerStuff)
+        /*public void SetPokemon(string imputPlayerStuff)
         {
             if (imputPlayerStuff == "sandyrew") 
             {
-                playerBox1.Image = Properties.Resources.sandshrewback;
+               playerBox1.Image = Properties.Resources.sandshrewback;
                 
             }
             else
             {
                 
             }
-        }
+        }*/
         
 
         public async void charmanderWait()
         {
-            playerBox1.Image = Properties.Resources.charmanderfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.charmanderback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.charmanderfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.charmanderbackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.charmanderfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.charmanderback;
+            }
         }
 
         public async void elgyemWait()
         {
-            playerBox1.Image = Properties.Resources.Elgyemfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.Elgyemback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.elgyemfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.elgyembackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.elgyemfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.elgyemback;
+            }
         }
 
         public async void eeveeWait()
         {
-            playerBox1.Image = Properties.Resources.eeveefront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.eeveeback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.eeveefrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.eeveebackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.eeveefront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.eeveeback;
+            }
         }
         public async void froakieWait()
         {
-            playerBox1.Image = Properties.Resources.froakiefront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.froakieback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.froakiefrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.froakiebackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.froakiefront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.froakieback;
+            }
         }
         public async void pikaWait()
         {
-            playerBox1.Image = Properties.Resources.pikachufront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.pikachuback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.pikachufronthat;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.pikachubackhat;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.pikachufront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.pikachuback;
+            }
         }
         public async void rowletWait()
         {
-            playerBox1.Image = Properties.Resources.rowletfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.rowletback;
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.rowletfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.rowletbackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.rowletfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.rowletback;
+            }
         }
         public async void sandshrewWait()
         {
-            shinyChance();
-            //playerBox1.Image = Properties.Resources.sandshrewfront;
-            //await Task.Delay(2000);
-            //playerBox1.Image = Properties.Resources.sandshrewback;
-        }
-        public async void shinxWait()
-        {
-            playerBox1.Image = Properties.Resources.shinxfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.shinxback;
-        }
-        public async void spinarakWait()
-        {
-            playerBox1.Image = Properties.Resources.Spinarakfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.Spinarakback;
-        }
-        public async void squirtleWait()
-        {
-            playerBox1.Image = Properties.Resources.squirtlefront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.squirtleback;
-        }
-        public async void zubatWait()
-        {
-            playerBox1.Image = Properties.Resources.zubatfront;
-            await Task.Delay(2000);
-            playerBox1.Image = Properties.Resources.zubatback;
-        }
-        
-        public async void shinyChance() //chance of shiny
-        {
-            Random rnd = new Random();
-            int randomNumber = rnd.Next(1, 25); //random chance between 1-2
-
-            if (randomNumber == 2) 
+            if (shiny == true)
             {
-                
                 playerBox1.Image = Properties.Resources.sandshrewfrontalolan;
                 await Task.Delay(2000);
                 playerBox1.Image = Properties.Resources.sandshrewbackalolan;
             }
-            else 
+            else
             {
                 playerBox1.Image = Properties.Resources.sandshrewfront;
                 await Task.Delay(2000);
                 playerBox1.Image = Properties.Resources.sandshrewback;
+            }
+        }
+        public async void shinxWait()
+        {
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.shinxfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.shinxbackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.shinxfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.shinxback;
+            }
+        }
+        public async void spinarakWait()
+        {
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.spinarakfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.spinarakbackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.spinarakfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.spinarakback;
+            }
+        }
+        public async void squirtleWait()
+        {
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.squirtlefrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.squirtlebackshiny;
+            }
+            else
+            {
+                playerBox1.Image = Properties.Resources.squirtlefront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.squirtleback;
+            }
+        }
+        public async void zubatWait()
+        {
+
+            if (shiny == true)
+            {
+                playerBox1.Image = Properties.Resources.zubatfrontshiny;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.zubatbackshiny;
+            }
+            else 
+            {
+                playerBox1.Image = Properties.Resources.zubatfront;
+                await Task.Delay(2000);
+                playerBox1.Image = Properties.Resources.zubatback;
+            }
+            
+        }
+        
+        public bool shinyChance() //chance of shiny       
+        {
+            Random rnd = new Random();
+            int randomNumber = rnd.Next(1, 3); //random chance between 1-2
+            bool isShiny;
+
+            if (randomNumber == 2) 
+            { 
+             isShiny = true;
+             return isShiny;   
+            }
+            else 
+            {
+                isShiny= false;
+                return isShiny; 
             }
         }
     }
