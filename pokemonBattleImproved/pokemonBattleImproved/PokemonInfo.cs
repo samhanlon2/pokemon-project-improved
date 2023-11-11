@@ -18,7 +18,6 @@ namespace pokemonBattleImproved
         private string move2Name;
         private string move3Name;
         private string move4Name;
-        private string frontImage;
 
         public PokemonInfo() { }
         public PokemonInfo(string pokemonPicked)
@@ -35,7 +34,6 @@ namespace pokemonBattleImproved
                 move2Name = "Ember";
                 move3Name = "Dragon breath";
                 move4Name = "Smoke screen";
-                frontImage = "Properties.Resources.charmanderfront";
             }
             else if (pokemonPicked == "elgyem") 
             {
@@ -169,12 +167,6 @@ namespace pokemonBattleImproved
                 move4Name = "Wing attack";
             }
 
-            
-
-        }
-        public string getFrontImage(string get)
-        {
-            return get;
         }
 
     }

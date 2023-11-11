@@ -143,29 +143,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap charmanderbackshiny {
-            get {
-                object obj = ResourceManager.GetObject("charmanderbackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap charmanderfront {
             get {
                 object obj = ResourceManager.GetObject("charmanderfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap charmanderfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("charmanderfrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,16 +163,6 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap eeveebackshiny {
-            get {
-                object obj = ResourceManager.GetObject("eeveebackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap eeveefront {
             get {
                 object obj = ResourceManager.GetObject("eeveefront", resourceCulture);
@@ -203,9 +173,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap eeveefrontshiny {
+        internal static System.Drawing.Bitmap Elgyemback {
             get {
-                object obj = ResourceManager.GetObject("eeveefrontshiny", resourceCulture);
+                object obj = ResourceManager.GetObject("Elgyemback", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,39 +183,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap elgyemback {
+        internal static System.Drawing.Bitmap Elgyemfront {
             get {
-                object obj = ResourceManager.GetObject("elgyemback", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap elgyembackshiny {
-            get {
-                object obj = ResourceManager.GetObject("elgyembackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap elgyemfront {
-            get {
-                object obj = ResourceManager.GetObject("elgyemfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap elgyemfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("elgyemfrontshiny", resourceCulture);
+                object obj = ResourceManager.GetObject("Elgyemfront", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,29 +353,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap froakiebackshiny {
-            get {
-                object obj = ResourceManager.GetObject("froakiebackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap froakiefront {
             get {
                 object obj = ResourceManager.GetObject("froakiefront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap froakiefrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("froakiefrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,29 +463,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pikachubackhat {
-            get {
-                object obj = ResourceManager.GetObject("pikachubackhat", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap pikachufront {
             get {
                 object obj = ResourceManager.GetObject("pikachufront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pikachufronthat {
-            get {
-                object obj = ResourceManager.GetObject("pikachufronthat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,29 +573,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rowletbackshiny {
-            get {
-                object obj = ResourceManager.GetObject("rowletbackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rowletfront {
             get {
                 object obj = ResourceManager.GetObject("rowletfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rowletfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("rowletfrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -813,29 +693,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shinxbackshiny {
-            get {
-                object obj = ResourceManager.GetObject("shinxbackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap shinxfront {
             get {
                 object obj = ResourceManager.GetObject("shinxfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap shinxfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("shinxfrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -873,9 +733,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap spinarakback {
+        internal static System.Drawing.Bitmap Spinarakback {
             get {
-                object obj = ResourceManager.GetObject("spinarakback", resourceCulture);
+                object obj = ResourceManager.GetObject("Spinarakback", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -883,29 +743,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap spinarakbackshiny {
+        internal static System.Drawing.Bitmap Spinarakfront {
             get {
-                object obj = ResourceManager.GetObject("spinarakbackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spinarakfront {
-            get {
-                object obj = ResourceManager.GetObject("spinarakfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spinarakfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("spinarakfrontshiny", resourceCulture);
+                object obj = ResourceManager.GetObject("Spinarakfront", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -953,29 +793,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap squirtlebackshiny {
-            get {
-                object obj = ResourceManager.GetObject("squirtlebackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap squirtlefront {
             get {
                 object obj = ResourceManager.GetObject("squirtlefront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap squirtlefrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("squirtlefrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1033,29 +853,9 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap zubatbackshiny {
-            get {
-                object obj = ResourceManager.GetObject("zubatbackshiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap zubatfront {
             get {
                 object obj = ResourceManager.GetObject("zubatfront", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap zubatfrontshiny {
-            get {
-                object obj = ResourceManager.GetObject("zubatfrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
