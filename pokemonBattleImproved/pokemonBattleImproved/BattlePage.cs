@@ -36,7 +36,11 @@ namespace pokemonBattleImproved
             else if (getpkname == "pikachu") { pikaWait(); }
             else if (getpkname == "rowlet") { rowletWait(); }
             else if (getpkname == "sandshrew") { sandshrewWait(); }
-            else if (getpkname == "spinarak") { spinarakwWait(); }
+
+            else if (getpkname == "spinarak") { spinarakWait(); }
+
+            
+
             else if (getpkname == "squirtle") { squirtleWait(); }
             else if (getpkname == "zubat") { zubatWait(); }
             else if (getpkname == "shinx") { shinxWait(); }
@@ -231,7 +235,7 @@ namespace pokemonBattleImproved
                 playerBox1.Image = Properties.Resources.shinxback;
             }
         }
-        public async void spinarakwWait()
+        public async void spinarakWait()
         {
             if (shiny == true)
             {
