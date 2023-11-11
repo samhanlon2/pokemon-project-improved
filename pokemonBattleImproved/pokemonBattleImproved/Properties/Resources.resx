@@ -304,10 +304,10 @@
   <data name="eeveefront" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eeveefront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elgyemback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="elgyemback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elgyemback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elgyemfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="elgyemfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elgyemfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="froakieback" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -334,10 +334,10 @@
   <data name="shinxfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shinxfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Spinarakback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="spinarakback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Spinarakback.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Spinarakfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="spinarakfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Spinarakfront.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="squirtleback" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -357,5 +357,65 @@
   </data>
   <data name="sandshrewfrontalolan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sandshrewfrontalolan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charmanderbackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charmanderbackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charmanderfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charmanderfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eeveebackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eeveebackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eeveefrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eeveefrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgyembackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elgyembackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elgyemfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elgyemfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="froakiebackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frokiebackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="froakiefrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\froakiefrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pikachubackhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikachubackhat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pikachufronthat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikachufronthat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rowletbackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowletbackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rowletfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowletfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shinxbackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shinxbackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shinxfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shinxfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spinarakbackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarakbackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spinarakfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinarakfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squirtlebackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squirtlebackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squirtlefrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squirtlefrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zubatbackshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zubatbackshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zubatfrontshiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zubatfrontshiny.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
