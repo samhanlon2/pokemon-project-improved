@@ -932,12 +932,12 @@ namespace pokemonBattleImproved
 
             this.Hide();
 
-            BattlePage battle = new BattlePage(pokemonPicked);
-
-            battle.ShowDialog();
+            //BattlePage battle = new BattlePage(pokemonPicked);
+            BackgroundPickPage BG = new BackgroundPickPage(pokemonPicked);
+            //battle.ShowDialog();
             //battle.SetPokemon(pokemonPicked);
 
-            this.Show();
+            BG.Show();
                 
         }
     }

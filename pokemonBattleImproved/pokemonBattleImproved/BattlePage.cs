@@ -20,15 +20,28 @@ namespace pokemonBattleImproved
         {
             InitializeComponent();
         }
-        public BattlePage(string getpkname)
+        public BattlePage(string getpkname, string getbgname)
         {
             shiny = shinyChance();
 
             InitializeComponent();
-            //playerBox1.Image = Properties.Resources.sandshrewfront;
-            //Task.Delay(2000);
-            //playerBox1.Image = Properties.Resources.sandshrewback;
-            
+
+            BackgroundImage = Properties.Resources.desert;
+            if (getbgname == "desert") { BackgroundImage = Properties.Resources.desert; }
+            else if (getbgname == "field") { BackgroundImage = Properties.Resources.field; }
+            else if (getbgname == "forest") { BackgroundImage = Properties.Resources.forest; }
+            else if (getbgname == "grassland") { BackgroundImage = Properties.Resources.grass; }
+            else if (getbgname == "plains") { BackgroundImage = Properties.Resources.ground; }
+            else if (getbgname == "mudland") { BackgroundImage = Properties.Resources.Rocky; }
+            else if (getbgname == "tundra") { BackgroundImage = Properties.Resources.Snow; }
+            else if (getbgname == "voidfield") { BackgroundImage = Properties.Resources.space_field; }
+            else if (getbgname == "space") { BackgroundImage = Properties.Resources.space_void; }
+            else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
+            else if (getbgname == "water") { BackgroundImage = Properties.Resources.water; }
+
+
+            //  BattlePage.back
+
             if (getpkname == "charmander") { charmanderWait(); }
             else if (getpkname == "elgyem") { elgyemWait(); }
             else if (getpkname == "eevee") { eeveeWait(); }
@@ -36,11 +49,7 @@ namespace pokemonBattleImproved
             else if (getpkname == "pikachu") { pikaWait(); }
             else if (getpkname == "rowlet") { rowletWait(); }
             else if (getpkname == "sandshrew") { sandshrewWait(); }
-
             else if (getpkname == "spinarak") { spinarakWait(); }
-
-            
-
             else if (getpkname == "squirtle") { squirtleWait(); }
             else if (getpkname == "zubat") { zubatWait(); }
             else if (getpkname == "shinx") { shinxWait(); }

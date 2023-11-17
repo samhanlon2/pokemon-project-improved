@@ -59,7 +59,7 @@
             this.AttackButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.AttackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AttackButton.ForeColor = System.Drawing.Color.Firebrick;
-            this.AttackButton.Location = new System.Drawing.Point(377, 579);
+            this.AttackButton.Location = new System.Drawing.Point(309, 266);
             this.AttackButton.Name = "AttackButton";
             this.AttackButton.Size = new System.Drawing.Size(213, 77);
             this.AttackButton.TabIndex = 5;
@@ -69,7 +69,7 @@
             // 
             // EnemyHealthBar
             // 
-            this.EnemyHealthBar.Location = new System.Drawing.Point(843, 477);
+            this.EnemyHealthBar.Location = new System.Drawing.Point(68, 432);
             this.EnemyHealthBar.Name = "EnemyHealthBar";
             this.EnemyHealthBar.Size = new System.Drawing.Size(387, 45);
             this.EnemyHealthBar.TabIndex = 11;
@@ -79,9 +79,9 @@
             // 
             this.playerBox1.BackColor = System.Drawing.Color.Transparent;
             this.playerBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerBox1.Location = new System.Drawing.Point(189, 279);
+            this.playerBox1.Location = new System.Drawing.Point(115, 528);
             this.playerBox1.Name = "playerBox1";
-            this.playerBox1.Size = new System.Drawing.Size(240, 240);
+            this.playerBox1.Size = new System.Drawing.Size(368, 330);
             this.playerBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.playerBox1.TabIndex = 8;
             this.playerBox1.TabStop = false;
@@ -90,9 +90,9 @@
             // 
             this.AttackPokeballPicture.BackColor = System.Drawing.Color.Transparent;
             this.AttackPokeballPicture.Image = global::pokemonBattleImproved.Properties.Resources.WEHATEBINICLE;
-            this.AttackPokeballPicture.Location = new System.Drawing.Point(930, 181);
+            this.AttackPokeballPicture.Location = new System.Drawing.Point(885, 296);
             this.AttackPokeballPicture.Name = "AttackPokeballPicture";
-            this.AttackPokeballPicture.Size = new System.Drawing.Size(218, 245);
+            this.AttackPokeballPicture.Size = new System.Drawing.Size(277, 290);
             this.AttackPokeballPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AttackPokeballPicture.TabIndex = 4;
             this.AttackPokeballPicture.TabStop = false;
@@ -103,7 +103,7 @@
             this.HealButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.HealButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HealButton.ForeColor = System.Drawing.Color.Firebrick;
-            this.HealButton.Location = new System.Drawing.Point(70, 579);
+            this.HealButton.Location = new System.Drawing.Point(21, 266);
             this.HealButton.Name = "HealButton";
             this.HealButton.Size = new System.Drawing.Size(213, 77);
             this.HealButton.TabIndex = 12;
@@ -113,7 +113,7 @@
             // 
             // PlayerHealthBar
             // 
-            this.PlayerHealthBar.Location = new System.Drawing.Point(91, 212);
+            this.PlayerHealthBar.Location = new System.Drawing.Point(885, 266);
             this.PlayerHealthBar.Name = "PlayerHealthBar";
             this.PlayerHealthBar.Size = new System.Drawing.Size(387, 45);
             this.PlayerHealthBar.TabIndex = 13;
@@ -123,7 +123,7 @@
             // 
             this.DialogueBox.BackColor = System.Drawing.Color.SteelBlue;
             this.DialogueBox.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DialogueBox.Location = new System.Drawing.Point(566, 293);
+            this.DialogueBox.Location = new System.Drawing.Point(605, 211);
             this.DialogueBox.Multiline = true;
             this.DialogueBox.Name = "DialogueBox";
             this.DialogueBox.Size = new System.Drawing.Size(175, 195);
@@ -134,6 +134,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackgroundImage = global::pokemonBattleImproved.Properties.Resources.space_void;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1403, 933);
             this.Controls.Add(this.DialogueBox);
             this.Controls.Add(this.PlayerHealthBar);
@@ -143,6 +145,7 @@
             this.Controls.Add(pokemonLabel);
             this.Controls.Add(this.AttackButton);
             this.Controls.Add(this.AttackPokeballPicture);
+            this.DoubleBuffered = true;
             this.Name = "BattlePage";
             this.RightToLeftLayout = true;
             this.Text = "battlePage";

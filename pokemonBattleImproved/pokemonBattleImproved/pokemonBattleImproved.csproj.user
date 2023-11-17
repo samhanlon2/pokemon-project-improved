@@ -4,6 +4,9 @@
     <_LastSelectedProfileId>C:\Users\jehen\Documents\cs-250\pokemonBattleImproved\pokemonBattleImproved\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="BackgroundPickPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="BattlePage.cs">
       <SubType>Form</SubType>
     </Compile>

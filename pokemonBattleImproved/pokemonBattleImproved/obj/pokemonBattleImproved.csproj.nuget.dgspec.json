@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samth\\OneDrive\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj": {}
+    "C:\\Users\\iront\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samth\\OneDrive\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj": {
+    "C:\\Users\\iront\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samth\\OneDrive\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj",
+        "projectUniqueName": "C:\\Users\\iront\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj",
         "projectName": "pokemonBattleImproved",
-        "projectPath": "C:\\Users\\samth\\OneDrive\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj",
-        "packagesPath": "C:\\Users\\samth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samth\\OneDrive\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\obj\\",
+        "projectPath": "C:\\Users\\iront\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\pokemonBattleImproved.csproj",
+        "packagesPath": "C:\\Users\\iront\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iront\\Documents\\GitHub\\pokemon-project-improved\\pokemonBattleImproved\\pokemonBattleImproved\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iront\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
