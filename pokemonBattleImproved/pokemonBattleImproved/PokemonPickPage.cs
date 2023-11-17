@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace pokemonBattleImproved
 {
@@ -36,6 +37,8 @@ namespace pokemonBattleImproved
 
             ResetStatBars();    // calls fucntion to resets stats bars
             pokemonPicked = "charmander";
+            SoundPlayer CharmanderCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.CharmanderCry);
+            CharmanderCry.Play();
 
             // changes Charmander choice color
             CharmanderSelectionButton.BackColor = Color.OrangeRed; // maybe we can use to say already looked at?? or not neccessary (can delete)
@@ -121,6 +124,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "elgyem";
+            SoundPlayer ElgyemCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.ElgyemCry);
+            ElgyemCry.Play();
 
             // changes Elgyem choice color
             ElgyemSelectionButton.BackColor = Color.MediumTurquoise; 
@@ -200,6 +205,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "eevee";
+            SoundPlayer EeveeCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.EeveeCry);
+            EeveeCry.Play();
 
             // changes Evee choice color
             EveeSelectionButton.BackColor = Color.SaddleBrown;
@@ -279,6 +286,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "froakie";
+            SoundPlayer FroakieCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.FroakieCry);
+            FroakieCry.Play();
 
             // changes Froakie choice color
             FroakieSelectionButton.BackColor = Color.Navy;
@@ -354,6 +363,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "pikachu";
+            SoundPlayer PikachuCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.PikachuCry);
+            PikachuCry.Play();
 
             // changes Pikachu choice color
             PikachuSelectionButton.BackColor = Color.Gold;
@@ -433,6 +444,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "rowlet";
+            SoundPlayer RowletCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.RowletCry);
+            RowletCry.Play();
 
             // changes Rowlet choice color
             RowletSelectionButton.BackColor = Color.MediumSeaGreen;
@@ -509,6 +522,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "sandshrew";
+            SoundPlayer SandshrewCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.SandshrewCry);
+            SandshrewCry.Play();
 
 
             // changes Sandshrew choice color
@@ -591,6 +606,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "shinx";
+            SoundPlayer ShinxCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.ShinxCry);
+            ShinxCry.Play();
 
             // changes Shinx choice color
             ShinxSelectionButton.BackColor = Color.PowderBlue;
@@ -667,6 +684,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "spinarak";
+            SoundPlayer SpinarakCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.SpinarakCry);
+            SpinarakCry.Play();
 
             // changes Spinarak choice color
             SpinarakSelectionButton.BackColor = Color.MediumSeaGreen;
@@ -742,6 +761,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "squirtle";
+            SoundPlayer SquirtleCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.SquirtleCry);
+            SquirtleCry.Play();
 
             // changes Squirtle choice color
             SquirtleSelectionButton.BackColor = Color.PowderBlue;
@@ -820,6 +841,8 @@ namespace pokemonBattleImproved
         {
             ResetStatBars();
             pokemonPicked = "zubat";
+            SoundPlayer ZubatCry = new SoundPlayer(pokemonBattleImproved.Properties.Resources.ZubatCry);
+            ZubatCry.Play();
 
             // changes Zubat choice color
             ZubatSelectionButton.BackColor = Color.LightYellow;
