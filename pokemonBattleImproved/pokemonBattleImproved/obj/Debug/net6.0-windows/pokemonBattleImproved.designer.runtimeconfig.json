@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\iront\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\samth\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\iront\\.nuget\\packages"
     ],
     "configProperties": {
