@@ -19,6 +19,9 @@ namespace pokemonBattleImproved
         private string move3Name;
         private string move4Name;
         private string frontImage;
+        private string backImage;
+        private string frontShiny;
+        private string backShiny;
 
         public PokemonInfo() { }
         public PokemonInfo(string pokemonPicked)
@@ -36,6 +39,9 @@ namespace pokemonBattleImproved
                 move3Name = "Dragon breath";
                 move4Name = "Smoke screen";
                 frontImage = "Properties.Resources.charmanderfront";
+                backImage = "Properties.Resources.charmanderback";
+                frontShiny = "Properties.Resources.charmanderfrontshiny";
+                backShiny = "Properties.Resources.charmanderbackshiny";
             }
             else if (pokemonPicked == "elgyem") 
             {
@@ -49,6 +55,10 @@ namespace pokemonBattleImproved
                 move2Name = "Psybeam";
                 move3Name = "Headbutt";
                 move4Name = "Recover";
+                frontImage = "Properties.Resources.elgyemfront";
+                backImage = "Properties.Resources.elgyemback";
+                frontShiny = "Properties.Resources.elgyemfrontshiny";
+                backShiny = "Properties.Resources.elgyembackshiny";
             }
             else if (pokemonPicked == "eevee") 
             {
@@ -62,6 +72,10 @@ namespace pokemonBattleImproved
                 move2Name = "Take down";
                 move3Name = "Quick attack";
                 move4Name = "Swift";
+                frontImage = "Properties.Resources.eeveefront";
+                backImage = "Properties.Resources.eeveeback";
+                frontShiny = "Properties.Resources.eeveefrontshiny";
+                backShiny = "Properties.Resources.eeveebackshiny";
             }
             else if (pokemonPicked == "froakie") 
             {
@@ -75,6 +89,10 @@ namespace pokemonBattleImproved
                 move2Name = "Bubble";
                 move3Name = "Quick attack";
                 move4Name = "Lick";
+                frontImage = "Properties.Resources.froakiefront";
+                backImage = "Properties.Resources.froakieback";
+                frontShiny = "Properties.Resources.froakiefrontshiny";
+                backShiny = "Properties.Resources.froakiebackshiny";
             }
             else if (pokemonPicked == "pikachu") 
             {
@@ -88,6 +106,10 @@ namespace pokemonBattleImproved
                 move2Name = "Quick attack";
                 move3Name = "Electro ball";
                 move4Name = "Slam";
+                frontImage = "Properties.Resources.pikachufront";
+                backImage = "Properties.Resources.pikachuback";
+                frontShiny = "Properties.Resources.pikachufrontshiny";
+                backShiny = "Properties.Resources.pikachubackshiny";
             }
             else if (pokemonPicked == "rowlet") 
             {
@@ -100,6 +122,10 @@ namespace pokemonBattleImproved
                 move2Name = "Peck";
                 move3Name = "Astonish";
                 move4Name = "Synthesis";
+                frontImage = "Properties.Resources.rowletfront";
+                backImage = "Properties.Resources.rowletback";
+                frontShiny = "Properties.Resources.rowletfrontshiny";
+                backShiny = "Properties.Resources.rowletbackshiny";
 
             }
             else if (pokemonPicked == "sandshrew") 
@@ -114,6 +140,10 @@ namespace pokemonBattleImproved
                 move2Name = "Defence curl";
                 move3Name = "Rapid spin";
                 move4Name = "Fury cutter";
+                frontImage = "Properties.Resources.sandshrewfront";
+                backImage = "Properties.Resources.sandshrewback";
+                frontShiny = "Properties.Resources.sandshrewfrontshiny";
+                backShiny = "Properties.Resources.sandshrewbackshiny";
 
             }
             else if (pokemonPicked == "shinx") 
@@ -128,6 +158,10 @@ namespace pokemonBattleImproved
                 move2Name = "thunder shock";
                 move3Name = "Bite";
                 move4Name = "Spark";
+                frontImage = "Properties.Resources.shinxfront";
+                backImage = "Properties.Resources.shinxback";
+                frontShiny = "Properties.Resources.shinxfrontshiny";
+                backShiny = "Properties.Resources.shinxbackshiny";
             }
             else if (pokemonPicked == "spinarak") 
             {
@@ -141,6 +175,10 @@ namespace pokemonBattleImproved
                 move2Name = "Absorb";
                 move3Name = "Infestation";
                 move4Name = "Sucker Punch";
+                frontImage = "Properties.Resources.spinarakfront";
+                backImage = "Properties.Resources.spinarakback";
+                frontShiny = "Properties.Resources.spinarakfrontshiny";
+                backShiny = "Properties.Resources.spinarakbackshiny";
             }
             else if (pokemonPicked == "squirtle") 
             {
@@ -154,6 +192,10 @@ namespace pokemonBattleImproved
                 move2Name = "Withdraw";
                 move3Name = "Rapid spin";
                 move4Name = "Bite";
+                frontImage = "Properties.Resources.squirtlefront";
+                backImage = "Properties.Resources.squirtleback";
+                frontShiny = "Properties.Resources.squirtlefrontshiny";
+                backShiny = "Properties.Resources.squirtlebackshiny";
             }
             else if (pokemonPicked == "zubat") 
             {
@@ -167,14 +209,33 @@ namespace pokemonBattleImproved
                 move2Name = "Astonish";
                 move3Name = "Bite";
                 move4Name = "Wing attack";
+                frontImage = "Properties.Resources.zubatfront";
+                backImage = "Properties.Resources.zubatback";
+                frontShiny = "Properties.Resources.zubatfrontshiny";
+                backShiny = "Properties.Resources.zubatbackshiny";
             }
 
             
 
         }
-        public string getFrontImage(string get)
+        public string getFrontImage()
         {
-            return get;
+            return frontImage;
+        }
+
+        public string getBackImage()
+        {
+            return backImage;
+        }
+
+        public string getFrontShiny()
+        {
+            return frontShiny;
+        }
+
+        public string getBackShiny()
+        {
+            return backShiny;
         }
 
     }

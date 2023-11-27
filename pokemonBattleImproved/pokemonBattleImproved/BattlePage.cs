@@ -13,7 +13,6 @@ namespace pokemonBattleImproved
     public partial class BattlePage : Form
     {
 
-        int HP = 10;
         bool shiny;
         
         public BattlePage()
@@ -39,20 +38,8 @@ namespace pokemonBattleImproved
             else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
             else if (getbgname == "water") { BackgroundImage = Properties.Resources.water; }
 
+            PokemonInfo player = new PokemonInfo(getpkname);
 
-            //  BattlePage.back
-
-            if (getpkname == "charmander") { charmanderWait(); }
-            else if (getpkname == "elgyem") { elgyemWait(); }
-            else if (getpkname == "eevee") { eeveeWait(); }
-            else if (getpkname == "froakie") { froakieWait(); }
-            else if (getpkname == "pikachu") { pikaWait(); }
-            else if (getpkname == "rowlet") { rowletWait(); }
-            else if (getpkname == "sandshrew") { sandshrewWait(); }
-            else if (getpkname == "spinarak") { spinarakWait(); }
-            else if (getpkname == "squirtle") { squirtleWait(); }
-            else if (getpkname == "zubat") { zubatWait(); }
-            else if (getpkname == "shinx") { shinxWait(); }
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -126,7 +113,7 @@ namespace pokemonBattleImproved
         {
             if (shiny == true)
             {
-                playerBox1.Image = Properties.Resources.charmanderfrontshiny;
+                playerBox1.Image = player.getFrontShiny();
                 await Task.Delay(2000);
                 playerBox1.Image = Properties.Resources.charmanderbackshiny;
             }
@@ -138,159 +125,7 @@ namespace pokemonBattleImproved
             }
         }
 
-        public async void elgyemWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.elgyemfrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.elgyembackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.elgyemfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.elgyemback;
-            }
-        }
-
-        public async void eeveeWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.eeveefrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.eeveebackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.eeveefront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.eeveeback;
-            }
-        }
-        public async void froakieWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.froakiefrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.froakiebackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.froakiefront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.froakieback;
-            }
-        }
-        public async void pikaWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.pikachufronthat;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.pikachubackhat;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.pikachufront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.pikachuback;
-            }
-        }
-        public async void rowletWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.rowletfrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.rowletbackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.rowletfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.rowletback;
-            }
-        }
-        public async void sandshrewWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.sandshrewfrontalolan;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.sandshrewbackalolan;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.sandshrewfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.sandshrewback;
-            }
-        }
-        public async void shinxWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.shinxfrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.shinxbackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.shinxfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.shinxback;
-            }
-        }
-        public async void spinarakWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.spinarakfrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.spinarakbackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.spinarakfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.spinarakback;
-            }
-        }
-        public async void squirtleWait()
-        {
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.squirtlefrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.squirtlebackshiny;
-            }
-            else
-            {
-                playerBox1.Image = Properties.Resources.squirtlefront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.squirtleback;
-            }
-        }
-        public async void zubatWait()
-        {
-
-            if (shiny == true)
-            {
-                playerBox1.Image = Properties.Resources.zubatfrontshiny;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.zubatbackshiny;
-            }
-            else 
-            {
-                playerBox1.Image = Properties.Resources.zubatfront;
-                await Task.Delay(2000);
-                playerBox1.Image = Properties.Resources.zubatback;
-            }
-            
-        }
+        
         
         public bool shinyChance() //chance of shiny       
         {
