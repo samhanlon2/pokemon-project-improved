@@ -35,7 +35,7 @@
             this.AttackPokeballPicture = new System.Windows.Forms.PictureBox();
             this.HealButton = new System.Windows.Forms.Button();
             this.PlayerHealthBar = new System.Windows.Forms.ProgressBar();
-            this.DialogueBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             pokemonLabel = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(pokemonLabel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerBox1)).BeginInit();
@@ -119,15 +119,17 @@
             this.PlayerHealthBar.TabIndex = 13;
             this.PlayerHealthBar.Value = 100;
             // 
-            // DialogueBox
+            // label1
             // 
-            this.DialogueBox.BackColor = System.Drawing.Color.SteelBlue;
-            this.DialogueBox.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DialogueBox.Location = new System.Drawing.Point(605, 211);
-            this.DialogueBox.Multiline = true;
-            this.DialogueBox.Name = "DialogueBox";
-            this.DialogueBox.Size = new System.Drawing.Size(175, 195);
-            this.DialogueBox.TabIndex = 14;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(607, 280);
+            this.label1.MaximumSize = new System.Drawing.Size(175, 195);
+            this.label1.MinimumSize = new System.Drawing.Size(175, 195);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(175, 195);
+            this.label1.TabIndex = 15;
             // 
             // BattlePage
             // 
@@ -137,7 +139,7 @@
             this.BackgroundImage = global::pokemonBattleImproved.Properties.Resources.space_void;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1403, 933);
-            this.Controls.Add(this.DialogueBox);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.PlayerHealthBar);
             this.Controls.Add(this.playerBox1);
             this.Controls.Add(this.HealButton);
@@ -167,6 +169,6 @@
         private System.Windows.Forms.Button HealButton;
         private PictureBox playerBox1;
         private ProgressBar PlayerHealthBar;
-        private TextBox DialogueBox;
+        private Label label1;
     }
 }
