@@ -53,11 +53,11 @@ namespace pokemonBattleImproved
             winstate();
            AttackButton.Enabled = false;
            HealButton.Enabled = false;
-           label1.Text = "Player used attack 1 and it dealt 20 damage";
+           DialogueBox.Text = "Player used attack 1 and it dealt 20 damage";
            await Task.Delay(1000);
            EnemyHealthBar.Increment(-30);
            await Task.Delay(1000);
-           label1.Text = "Binacle attacked back";
+           DialogueBox.Text = "Binacle attacked back";
            await Task.Delay(1000);
            PlayerHealthBar.Increment(-20);
            await Task.Delay(1000);
@@ -73,11 +73,11 @@ namespace pokemonBattleImproved
             winstate();
             AttackButton.Enabled = false;
             HealButton.Enabled = false;
-            label1.Text = "you healed your pokemon for 25 HP";
+            DialogueBox.Text = "you healed your pokemon for 25 HP";
             await Task.Delay(1000);
             PlayerHealthBar.Increment(+15);
             await Task.Delay(1000);
-            label1.Text = "Binacle attacked";
+            DialogueBox.Text = "Binacle attacked";
             PlayerHealthBar.Increment(-10);
             AttackButton.Enabled = true;
             HealButton.Enabled = true;
@@ -113,8 +113,7 @@ namespace pokemonBattleImproved
         {
             if (shiny == true)
             {
-                playerBox1.Image = Properties.Resources.charmanderfrontshiny;
-                //playerBox1.Image = playerBox1.GetFrontShiny();
+                playerBox1.Image = player.getFrontShiny();
                 await Task.Delay(2000);
                 playerBox1.Image = Properties.Resources.charmanderbackshiny;
             }
