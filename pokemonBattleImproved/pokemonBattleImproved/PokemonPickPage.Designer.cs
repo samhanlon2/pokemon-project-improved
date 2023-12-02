@@ -81,11 +81,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Gold;
-            this.label1.Location = new System.Drawing.Point(52, 376);
+            this.label1.Location = new System.Drawing.Point(46, 282);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 24);
+            this.label1.Size = new System.Drawing.Size(99, 22);
             this.label1.TabIndex = 4;
             this.label1.Text = "Charmander";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,11 +94,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Gold;
-            this.label3.Location = new System.Drawing.Point(657, 376);
+            this.label3.Location = new System.Drawing.Point(575, 282);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 24);
+            this.label3.Size = new System.Drawing.Size(64, 22);
             this.label3.TabIndex = 10;
             this.label3.Text = "Froakie";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,11 +107,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Gold;
-            this.label4.Location = new System.Drawing.Point(484, 376);
+            this.label4.Location = new System.Drawing.Point(424, 282);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 24);
+            this.label4.Size = new System.Drawing.Size(56, 22);
             this.label4.TabIndex = 8;
             this.label4.Text = "Eevee";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,11 +120,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Gold;
-            this.label5.Location = new System.Drawing.Point(279, 637);
+            this.label5.Location = new System.Drawing.Point(244, 478);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 24);
+            this.label5.Size = new System.Drawing.Size(60, 22);
             this.label5.TabIndex = 14;
             this.label5.Text = "Rowlet";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -133,11 +133,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Gold;
-            this.label6.Location = new System.Drawing.Point(77, 637);
+            this.label6.Location = new System.Drawing.Point(67, 478);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 24);
+            this.label6.Size = new System.Drawing.Size(67, 22);
             this.label6.TabIndex = 12;
             this.label6.Text = "Pikachu";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -146,11 +146,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(279, 376);
+            this.label2.Location = new System.Drawing.Point(244, 282);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 24);
+            this.label2.Size = new System.Drawing.Size(63, 22);
             this.label2.TabIndex = 28;
             this.label2.Text = "Elgyem";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -159,11 +159,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.Gold;
-            this.label7.Location = new System.Drawing.Point(197, 891);
+            this.label7.Location = new System.Drawing.Point(172, 668);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 24);
+            this.label7.Size = new System.Drawing.Size(74, 22);
             this.label7.TabIndex = 40;
             this.label7.Text = "Spinarak";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -172,11 +172,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label9.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.Gold;
-            this.label9.Location = new System.Drawing.Point(444, 637);
+            this.label9.Location = new System.Drawing.Point(388, 478);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(133, 24);
+            this.label9.Size = new System.Drawing.Size(91, 22);
             this.label9.TabIndex = 36;
             this.label9.Text = "Sandshrew";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,11 +185,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label10.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.Gold;
-            this.label10.Location = new System.Drawing.Point(591, 891);
+            this.label10.Location = new System.Drawing.Point(517, 668);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(78, 24);
+            this.label10.Size = new System.Drawing.Size(53, 22);
             this.label10.TabIndex = 34;
             this.label10.Text = "Zubat";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -198,11 +198,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label11.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.Gold;
-            this.label11.Location = new System.Drawing.Point(393, 891);
+            this.label11.Location = new System.Drawing.Point(344, 668);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 24);
+            this.label11.Size = new System.Drawing.Size(65, 22);
             this.label11.TabIndex = 32;
             this.label11.Text = "Squirtle";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -211,11 +211,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label12.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.Gold;
-            this.label12.Location = new System.Drawing.Point(667, 637);
+            this.label12.Location = new System.Drawing.Point(584, 478);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(75, 24);
+            this.label12.Size = new System.Drawing.Size(50, 22);
             this.label12.TabIndex = 30;
             this.label12.Text = "Shinx";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -226,12 +226,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PokemonProfileName.AutoSize = true;
-            this.PokemonProfileName.Font = new System.Drawing.Font("Broadway", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PokemonProfileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PokemonProfileName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.PokemonProfileName.Location = new System.Drawing.Point(1099, 72);
+            this.PokemonProfileName.Location = new System.Drawing.Point(962, 54);
             this.PokemonProfileName.Name = "PokemonProfileName";
             this.PokemonProfileName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.PokemonProfileName.Size = new System.Drawing.Size(143, 27);
+            this.PokemonProfileName.Size = new System.Drawing.Size(104, 24);
             this.PokemonProfileName.TabIndex = 42;
             this.PokemonProfileName.Text = "You Chose";
             this.PokemonProfileName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -240,11 +240,11 @@
             // 
             this.ProfileCardHPLabel.AutoSize = true;
             this.ProfileCardHPLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardHPLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardHPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardHPLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardHPLabel.Location = new System.Drawing.Point(984, 410);
+            this.ProfileCardHPLabel.Location = new System.Drawing.Point(861, 308);
             this.ProfileCardHPLabel.Name = "ProfileCardHPLabel";
-            this.ProfileCardHPLabel.Size = new System.Drawing.Size(40, 22);
+            this.ProfileCardHPLabel.Size = new System.Drawing.Size(31, 20);
             this.ProfileCardHPLabel.TabIndex = 43;
             this.ProfileCardHPLabel.Text = "HP";
             this.ProfileCardHPLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,20 +253,21 @@
             // 
             this.ProfileCardHPBar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ProfileCardHPBar.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.ProfileCardHPBar.Location = new System.Drawing.Point(984, 450);
+            this.ProfileCardHPBar.Location = new System.Drawing.Point(861, 338);
+            this.ProfileCardHPBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProfileCardHPBar.Name = "ProfileCardHPBar";
-            this.ProfileCardHPBar.Size = new System.Drawing.Size(370, 23);
+            this.ProfileCardHPBar.Size = new System.Drawing.Size(324, 17);
             this.ProfileCardHPBar.TabIndex = 44;
             // 
             // ProfileCardSpeedLabel
             // 
             this.ProfileCardSpeedLabel.AutoSize = true;
             this.ProfileCardSpeedLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardSpeedLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardSpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardSpeedLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardSpeedLabel.Location = new System.Drawing.Point(984, 490);
+            this.ProfileCardSpeedLabel.Location = new System.Drawing.Point(861, 368);
             this.ProfileCardSpeedLabel.Name = "ProfileCardSpeedLabel";
-            this.ProfileCardSpeedLabel.Size = new System.Drawing.Size(76, 22);
+            this.ProfileCardSpeedLabel.Size = new System.Drawing.Size(56, 20);
             this.ProfileCardSpeedLabel.TabIndex = 45;
             this.ProfileCardSpeedLabel.Text = "Speed";
             this.ProfileCardSpeedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -275,20 +276,21 @@
             // 
             this.ProfileCardSpeedBar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ProfileCardSpeedBar.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.ProfileCardSpeedBar.Location = new System.Drawing.Point(984, 530);
+            this.ProfileCardSpeedBar.Location = new System.Drawing.Point(861, 398);
+            this.ProfileCardSpeedBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProfileCardSpeedBar.Name = "ProfileCardSpeedBar";
-            this.ProfileCardSpeedBar.Size = new System.Drawing.Size(370, 23);
+            this.ProfileCardSpeedBar.Size = new System.Drawing.Size(324, 17);
             this.ProfileCardSpeedBar.TabIndex = 46;
             // 
             // ProfileCardAttackLabel
             // 
             this.ProfileCardAttackLabel.AutoSize = true;
             this.ProfileCardAttackLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardAttackLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardAttackLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardAttackLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardAttackLabel.Location = new System.Drawing.Point(984, 575);
+            this.ProfileCardAttackLabel.Location = new System.Drawing.Point(861, 431);
             this.ProfileCardAttackLabel.Name = "ProfileCardAttackLabel";
-            this.ProfileCardAttackLabel.Size = new System.Drawing.Size(84, 22);
+            this.ProfileCardAttackLabel.Size = new System.Drawing.Size(55, 20);
             this.ProfileCardAttackLabel.TabIndex = 47;
             this.ProfileCardAttackLabel.Text = "Attack";
             this.ProfileCardAttackLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -297,20 +299,21 @@
             // 
             this.ProfileCardAttackBar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ProfileCardAttackBar.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.ProfileCardAttackBar.Location = new System.Drawing.Point(984, 615);
+            this.ProfileCardAttackBar.Location = new System.Drawing.Point(861, 461);
+            this.ProfileCardAttackBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProfileCardAttackBar.Name = "ProfileCardAttackBar";
-            this.ProfileCardAttackBar.Size = new System.Drawing.Size(370, 23);
+            this.ProfileCardAttackBar.Size = new System.Drawing.Size(324, 17);
             this.ProfileCardAttackBar.TabIndex = 48;
             // 
             // ProfileCardDefenseLabel
             // 
             this.ProfileCardDefenseLabel.AutoSize = true;
             this.ProfileCardDefenseLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardDefenseLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardDefenseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardDefenseLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardDefenseLabel.Location = new System.Drawing.Point(984, 664);
+            this.ProfileCardDefenseLabel.Location = new System.Drawing.Point(861, 498);
             this.ProfileCardDefenseLabel.Name = "ProfileCardDefenseLabel";
-            this.ProfileCardDefenseLabel.Size = new System.Drawing.Size(94, 22);
+            this.ProfileCardDefenseLabel.Size = new System.Drawing.Size(70, 20);
             this.ProfileCardDefenseLabel.TabIndex = 49;
             this.ProfileCardDefenseLabel.Text = "Defense";
             this.ProfileCardDefenseLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -319,9 +322,10 @@
             // 
             this.ProfileCardDefenseBar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ProfileCardDefenseBar.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.ProfileCardDefenseBar.Location = new System.Drawing.Point(984, 705);
+            this.ProfileCardDefenseBar.Location = new System.Drawing.Point(861, 529);
+            this.ProfileCardDefenseBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProfileCardDefenseBar.Name = "ProfileCardDefenseBar";
-            this.ProfileCardDefenseBar.Size = new System.Drawing.Size(370, 23);
+            this.ProfileCardDefenseBar.Size = new System.Drawing.Size(324, 17);
             this.ProfileCardDefenseBar.TabIndex = 50;
             // 
             // PokemonProfileImageList
@@ -347,11 +351,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PokemonProfileName1.AutoSize = true;
-            this.PokemonProfileName1.Font = new System.Drawing.Font("Broadway", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PokemonProfileName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PokemonProfileName1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.PokemonProfileName1.Location = new System.Drawing.Point(1099, 372);
+            this.PokemonProfileName1.Location = new System.Drawing.Point(962, 279);
             this.PokemonProfileName1.Name = "PokemonProfileName1";
-            this.PokemonProfileName1.Size = new System.Drawing.Size(143, 27);
+            this.PokemonProfileName1.Size = new System.Drawing.Size(104, 24);
             this.PokemonProfileName1.TabIndex = 51;
             this.PokemonProfileName1.Text = "You Chose";
             this.PokemonProfileName1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -361,10 +365,11 @@
             this.PokemonSelectionButton.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.PokemonSelectionButton.Enabled = false;
             this.PokemonSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.PokemonSelectionButton.Font = new System.Drawing.Font("Broadway", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PokemonSelectionButton.Location = new System.Drawing.Point(1015, 805);
+            this.PokemonSelectionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PokemonSelectionButton.Location = new System.Drawing.Point(888, 604);
+            this.PokemonSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PokemonSelectionButton.Name = "PokemonSelectionButton";
-            this.PokemonSelectionButton.Size = new System.Drawing.Size(326, 107);
+            this.PokemonSelectionButton.Size = new System.Drawing.Size(285, 80);
             this.PokemonSelectionButton.TabIndex = 52;
             this.PokemonSelectionButton.Text = "Choose";
             this.PokemonSelectionButton.UseVisualStyleBackColor = false;
@@ -374,11 +379,11 @@
             // 
             this.ProfileCardHPAmountLabel.AutoSize = true;
             this.ProfileCardHPAmountLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardHPAmountLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardHPAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardHPAmountLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardHPAmountLabel.Location = new System.Drawing.Point(1252, 410);
+            this.ProfileCardHPAmountLabel.Location = new System.Drawing.Point(1096, 308);
             this.ProfileCardHPAmountLabel.Name = "ProfileCardHPAmountLabel";
-            this.ProfileCardHPAmountLabel.Size = new System.Drawing.Size(40, 22);
+            this.ProfileCardHPAmountLabel.Size = new System.Drawing.Size(31, 20);
             this.ProfileCardHPAmountLabel.TabIndex = 53;
             this.ProfileCardHPAmountLabel.Text = "HP";
             this.ProfileCardHPAmountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -387,11 +392,11 @@
             // 
             this.ProfileCardSpeedAmountLabel.AutoSize = true;
             this.ProfileCardSpeedAmountLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardSpeedAmountLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardSpeedAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardSpeedAmountLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardSpeedAmountLabel.Location = new System.Drawing.Point(1252, 490);
+            this.ProfileCardSpeedAmountLabel.Location = new System.Drawing.Point(1096, 368);
             this.ProfileCardSpeedAmountLabel.Name = "ProfileCardSpeedAmountLabel";
-            this.ProfileCardSpeedAmountLabel.Size = new System.Drawing.Size(52, 22);
+            this.ProfileCardSpeedAmountLabel.Size = new System.Drawing.Size(42, 20);
             this.ProfileCardSpeedAmountLabel.TabIndex = 54;
             this.ProfileCardSpeedAmountLabel.Text = "SPD";
             this.ProfileCardSpeedAmountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -400,11 +405,11 @@
             // 
             this.ProfileCardAttackAmountLabel.AutoSize = true;
             this.ProfileCardAttackAmountLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardAttackAmountLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardAttackAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardAttackAmountLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardAttackAmountLabel.Location = new System.Drawing.Point(1252, 575);
+            this.ProfileCardAttackAmountLabel.Location = new System.Drawing.Point(1096, 431);
             this.ProfileCardAttackAmountLabel.Name = "ProfileCardAttackAmountLabel";
-            this.ProfileCardAttackAmountLabel.Size = new System.Drawing.Size(55, 22);
+            this.ProfileCardAttackAmountLabel.Size = new System.Drawing.Size(39, 20);
             this.ProfileCardAttackAmountLabel.TabIndex = 55;
             this.ProfileCardAttackAmountLabel.Text = "ATK";
             this.ProfileCardAttackAmountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -413,11 +418,11 @@
             // 
             this.ProfileCardDefenseAmountLabel.AutoSize = true;
             this.ProfileCardDefenseAmountLabel.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ProfileCardDefenseAmountLabel.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ProfileCardDefenseAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProfileCardDefenseAmountLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ProfileCardDefenseAmountLabel.Location = new System.Drawing.Point(1252, 664);
+            this.ProfileCardDefenseAmountLabel.Location = new System.Drawing.Point(1096, 498);
             this.ProfileCardDefenseAmountLabel.Name = "ProfileCardDefenseAmountLabel";
-            this.ProfileCardDefenseAmountLabel.Size = new System.Drawing.Size(51, 22);
+            this.ProfileCardDefenseAmountLabel.Size = new System.Drawing.Size(42, 20);
             this.ProfileCardDefenseAmountLabel.TabIndex = 56;
             this.ProfileCardDefenseAmountLabel.Text = "DEF";
             this.ProfileCardDefenseAmountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -444,9 +449,10 @@
             this.PokemonProfilePicture.BackColor = System.Drawing.Color.MidnightBlue;
             this.PokemonProfilePicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PokemonProfilePicture.Image = global::pokemonBattleImproved.Properties.Resources.PokeBall_Image_160x160;
-            this.PokemonProfilePicture.Location = new System.Drawing.Point(1063, 116);
+            this.PokemonProfilePicture.Location = new System.Drawing.Point(930, 87);
+            this.PokemonProfilePicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PokemonProfilePicture.Name = "PokemonProfilePicture";
-            this.PokemonProfilePicture.Size = new System.Drawing.Size(220, 220);
+            this.PokemonProfilePicture.Size = new System.Drawing.Size(192, 165);
             this.PokemonProfilePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PokemonProfilePicture.TabIndex = 41;
             this.PokemonProfilePicture.TabStop = false;
@@ -457,9 +463,10 @@
             this.SpinarakSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.SpinarakSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SpinarakSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Spinarak_Button_120x120;
-            this.SpinarakSelectionButton.Location = new System.Drawing.Point(175, 700);
+            this.SpinarakSelectionButton.Location = new System.Drawing.Point(153, 525);
+            this.SpinarakSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SpinarakSelectionButton.Name = "SpinarakSelectionButton";
-            this.SpinarakSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.SpinarakSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.SpinarakSelectionButton.TabIndex = 39;
             this.SpinarakSelectionButton.UseVisualStyleBackColor = false;
             this.SpinarakSelectionButton.Click += new System.EventHandler(this.SpinarakSelectionButton_Click);
@@ -469,9 +476,10 @@
             this.SandshrewSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.SandshrewSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SandshrewSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Sandshrew_Button_120x120;
-            this.SandshrewSelectionButton.Location = new System.Drawing.Point(434, 444);
+            this.SandshrewSelectionButton.Location = new System.Drawing.Point(380, 333);
+            this.SandshrewSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SandshrewSelectionButton.Name = "SandshrewSelectionButton";
-            this.SandshrewSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.SandshrewSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.SandshrewSelectionButton.TabIndex = 35;
             this.SandshrewSelectionButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.SandshrewSelectionButton.UseVisualStyleBackColor = false;
@@ -482,9 +490,10 @@
             this.ZubatSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.ZubatSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ZubatSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Zubat_Button_120x120;
-            this.ZubatSelectionButton.Location = new System.Drawing.Point(555, 700);
+            this.ZubatSelectionButton.Location = new System.Drawing.Point(486, 525);
+            this.ZubatSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ZubatSelectionButton.Name = "ZubatSelectionButton";
-            this.ZubatSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.ZubatSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.ZubatSelectionButton.TabIndex = 33;
             this.ZubatSelectionButton.UseVisualStyleBackColor = false;
             this.ZubatSelectionButton.Click += new System.EventHandler(this.ZubatSelectionButton_Click);
@@ -495,9 +504,10 @@
             this.SquirtleSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SquirtleSelectionButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.SquirtleSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Squirtle_Button_120x93;
-            this.SquirtleSelectionButton.Location = new System.Drawing.Point(364, 698);
+            this.SquirtleSelectionButton.Location = new System.Drawing.Point(318, 524);
+            this.SquirtleSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SquirtleSelectionButton.Name = "SquirtleSelectionButton";
-            this.SquirtleSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.SquirtleSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.SquirtleSelectionButton.TabIndex = 31;
             this.SquirtleSelectionButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.SquirtleSelectionButton.UseVisualStyleBackColor = false;
@@ -509,9 +519,10 @@
             this.ShinxSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.ShinxSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ShinxSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Shinx_Button_120x120;
-            this.ShinxSelectionButton.Location = new System.Drawing.Point(625, 444);
+            this.ShinxSelectionButton.Location = new System.Drawing.Point(547, 333);
+            this.ShinxSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ShinxSelectionButton.Name = "ShinxSelectionButton";
-            this.ShinxSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.ShinxSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.ShinxSelectionButton.TabIndex = 29;
             this.ShinxSelectionButton.UseVisualStyleBackColor = false;
             this.ShinxSelectionButton.Click += new System.EventHandler(this.ShinxSelectionButton_Click);
@@ -522,9 +533,10 @@
             this.ElgyemSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.ElgyemSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ElgyemSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Elygem_Button_120x120;
-            this.ElgyemSelectionButton.Location = new System.Drawing.Point(244, 181);
+            this.ElgyemSelectionButton.Location = new System.Drawing.Point(214, 136);
+            this.ElgyemSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ElgyemSelectionButton.Name = "ElgyemSelectionButton";
-            this.ElgyemSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.ElgyemSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.ElgyemSelectionButton.TabIndex = 27;
             this.ElgyemSelectionButton.UseVisualStyleBackColor = false;
             this.ElgyemSelectionButton.Click += new System.EventHandler(this.ElgyemSelectionButton_Click);
@@ -534,9 +546,10 @@
             this.RowletSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.RowletSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.RowletSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Rowlet_Button_120x120;
-            this.RowletSelectionButton.Location = new System.Drawing.Point(244, 444);
+            this.RowletSelectionButton.Location = new System.Drawing.Point(214, 333);
+            this.RowletSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RowletSelectionButton.Name = "RowletSelectionButton";
-            this.RowletSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.RowletSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.RowletSelectionButton.TabIndex = 13;
             this.RowletSelectionButton.UseVisualStyleBackColor = false;
             this.RowletSelectionButton.Click += new System.EventHandler(this.RowletSelectionButton_Click);
@@ -547,9 +560,10 @@
             this.PikachuSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.PikachuSelectionButton.ForeColor = System.Drawing.Color.Transparent;
             this.PikachuSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Pikachu_Button_120x128;
-            this.PikachuSelectionButton.Location = new System.Drawing.Point(52, 444);
+            this.PikachuSelectionButton.Location = new System.Drawing.Point(46, 333);
+            this.PikachuSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PikachuSelectionButton.Name = "PikachuSelectionButton";
-            this.PikachuSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.PikachuSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.PikachuSelectionButton.TabIndex = 11;
             this.PikachuSelectionButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.PikachuSelectionButton.UseVisualStyleBackColor = false;
@@ -560,9 +574,10 @@
             this.FroakieSelectionButton.BackColor = System.Drawing.Color.Transparent;
             this.FroakieSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.FroakieSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Froakie_Button_120x125;
-            this.FroakieSelectionButton.Location = new System.Drawing.Point(625, 181);
+            this.FroakieSelectionButton.Location = new System.Drawing.Point(547, 136);
+            this.FroakieSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FroakieSelectionButton.Name = "FroakieSelectionButton";
-            this.FroakieSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.FroakieSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.FroakieSelectionButton.TabIndex = 9;
             this.FroakieSelectionButton.UseVisualStyleBackColor = false;
             this.FroakieSelectionButton.Click += new System.EventHandler(this.FroakieSelectionButton_Click);
@@ -573,9 +588,10 @@
             this.EveeSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.EveeSelectionButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.EveeSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Evee_Button_80x106;
-            this.EveeSelectionButton.Location = new System.Drawing.Point(434, 181);
+            this.EveeSelectionButton.Location = new System.Drawing.Point(380, 136);
+            this.EveeSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EveeSelectionButton.Name = "EveeSelectionButton";
-            this.EveeSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.EveeSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.EveeSelectionButton.TabIndex = 7;
             this.EveeSelectionButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.EveeSelectionButton.UseVisualStyleBackColor = false;
@@ -588,9 +604,10 @@
             this.CharmanderSelectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CharmanderSelectionButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.CharmanderSelectionButton.Image = global::pokemonBattleImproved.Properties.Resources.Charmander_Button_120x120;
-            this.CharmanderSelectionButton.Location = new System.Drawing.Point(52, 181);
+            this.CharmanderSelectionButton.Location = new System.Drawing.Point(46, 136);
+            this.CharmanderSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CharmanderSelectionButton.Name = "CharmanderSelectionButton";
-            this.CharmanderSelectionButton.Size = new System.Drawing.Size(160, 180);
+            this.CharmanderSelectionButton.Size = new System.Drawing.Size(140, 135);
             this.CharmanderSelectionButton.TabIndex = 1;
             this.CharmanderSelectionButton.UseVisualStyleBackColor = false;
             this.CharmanderSelectionButton.Click += new System.EventHandler(this.CharmanderSelectionButton_Click);
@@ -599,9 +616,10 @@
             // 
             this.pokemonLabel.BackColor = System.Drawing.Color.Transparent;
             this.pokemonLabel.Image = global::pokemonBattleImproved.Properties.Resources.PokemonSign_Image;
-            this.pokemonLabel.Location = new System.Drawing.Point(121, -113);
+            this.pokemonLabel.Location = new System.Drawing.Point(106, -85);
+            this.pokemonLabel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pokemonLabel.Name = "pokemonLabel";
-            this.pokemonLabel.Size = new System.Drawing.Size(538, 357);
+            this.pokemonLabel.Size = new System.Drawing.Size(471, 268);
             this.pokemonLabel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pokemonLabel.TabIndex = 0;
             this.pokemonLabel.TabStop = false;
@@ -610,22 +628,23 @@
             // 
             this.ProfileCardBackground.BackColor = System.Drawing.Color.RoyalBlue;
             this.ProfileCardBackground.Image = global::pokemonBattleImproved.Properties.Resources.Card_Background;
-            this.ProfileCardBackground.Location = new System.Drawing.Point(955, 46);
+            this.ProfileCardBackground.Location = new System.Drawing.Point(836, 34);
+            this.ProfileCardBackground.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProfileCardBackground.Name = "ProfileCardBackground";
-            this.ProfileCardBackground.Size = new System.Drawing.Size(432, 734);
+            this.ProfileCardBackground.Size = new System.Drawing.Size(378, 550);
             this.ProfileCardBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ProfileCardBackground.TabIndex = 2;
             this.ProfileCardBackground.TabStop = false;
             // 
             // PokemonSelection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1382, 953);
+            this.ClientSize = new System.Drawing.Size(1209, 715);
             this.Controls.Add(this.PokemonProfilePicture);
             this.Controls.Add(this.ProfileCardDefenseAmountLabel);
             this.Controls.Add(this.ProfileCardAttackAmountLabel);
@@ -666,6 +685,7 @@
             this.Controls.Add(this.CharmanderSelectionButton);
             this.Controls.Add(this.pokemonLabel);
             this.Controls.Add(this.ProfileCardBackground);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PokemonSelection";
             this.Text = "Pokemon Selection";
             this.Load += new System.EventHandler(this.PokemonSelection_Load);
