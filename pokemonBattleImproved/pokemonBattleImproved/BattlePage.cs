@@ -74,7 +74,11 @@ namespace pokemonBattleImproved
             dessertb.Play();
             }
             else if (getbgname == "field") { BackgroundImage = Properties.Resources.field; }
-            else if (getbgname == "forest") { BackgroundImage = Properties.Resources.forest; }
+            else if (getbgname == "forest") {
+            BackgroundImage = Properties.Resources.forest;
+            SoundPlayer forrestb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.forestbattle);
+            forrestb.Play();
+            }
             else if (getbgname == "grassland") { BackgroundImage = Properties.Resources.grass; }
             else if (getbgname == "plains") 
             { 
