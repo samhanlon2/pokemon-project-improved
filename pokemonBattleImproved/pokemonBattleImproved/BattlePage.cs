@@ -107,7 +107,11 @@ namespace pokemonBattleImproved
             spaceb.Play();
             }
             else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
-            else if (getbgname == "water") { BackgroundImage = Properties.Resources.water; }
+            else if (getbgname == "water") { 
+            BackgroundImage = Properties.Resources.water;
+            SoundPlayer waterb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.waterbattle);
+            waterb.Play();
+            }
 
             player.setPokemon(getpkname);
             PlayerNameLabel.Text = player.getName();
