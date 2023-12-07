@@ -502,6 +502,9 @@
   <data name="ShinxCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShinxCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="spacebattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spacebattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="SpinarakCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpinarakCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
