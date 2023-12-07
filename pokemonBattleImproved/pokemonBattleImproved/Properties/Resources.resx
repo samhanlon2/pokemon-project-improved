@@ -481,6 +481,9 @@
   <data name="FroakieCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FroakieCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="grasslandbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grasslandbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="PikachuCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PikachuCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

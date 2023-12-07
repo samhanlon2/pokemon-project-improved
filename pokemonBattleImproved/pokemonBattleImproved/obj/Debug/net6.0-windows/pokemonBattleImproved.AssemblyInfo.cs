@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pokemonBattleImproved")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3612372d2386347e5b7a62d4593f255de413de1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("pokemonBattleImproved")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pokemonBattleImproved")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
