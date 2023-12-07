@@ -92,7 +92,11 @@ namespace pokemonBattleImproved
             }
             else if (getbgname == "mudland") { BackgroundImage = Properties.Resources.Rocky; }
             else if (getbgname == "tundra") { BackgroundImage = Properties.Resources.Snow; }
-            else if (getbgname == "voidfield") { BackgroundImage = Properties.Resources.space_field; }
+            else if (getbgname == "voidfield") {
+            BackgroundImage = Properties.Resources.space_field;
+            SoundPlayer vf = new SoundPlayer(pokemonBattleImproved.Properties.Resources.voidfield);
+            vf.Play();
+            }
             else if (getbgname == "space") { BackgroundImage = Properties.Resources.space_void; }
             else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
             else if (getbgname == "water") { BackgroundImage = Properties.Resources.water; }
