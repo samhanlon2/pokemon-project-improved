@@ -68,7 +68,11 @@ namespace pokemonBattleImproved
             }
 
             BackgroundImage = Properties.Resources.desert;
-            if (getbgname == "desert") { BackgroundImage = Properties.Resources.desert; }
+            if (getbgname == "desert") { 
+            BackgroundImage = Properties.Resources.desert; 
+            SoundPlayer dessertb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.desertbattle);
+            dessertb.Play();
+            }
             else if (getbgname == "field") { BackgroundImage = Properties.Resources.field; }
             else if (getbgname == "forest") { BackgroundImage = Properties.Resources.forest; }
             else if (getbgname == "grassland") { BackgroundImage = Properties.Resources.grass; }
