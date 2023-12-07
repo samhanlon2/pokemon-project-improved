@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,9 +26,11 @@ namespace pokemonBattleImproved
             InitializeComponent();
             pickedpokemon = getpkname;
             label13.Text = "Selected:";
-            
+            SoundPlayer calm = new SoundPlayer(pokemonBattleImproved.Properties.Resources.Calm);
+            calm.Play();
 
-        }
+
+    }
         private void button1_Click(object sender, EventArgs e)//deseert
         {
             BackgroundPicked = "desert";
