@@ -460,4 +460,73 @@
   <data name="water" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\water.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Calm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CharmanderCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CharmanderCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="desertbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desertbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EeveeCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EeveeCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ElgyemCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElgyemCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fieldbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fieldbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="forestbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forestbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FroakieCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FroakieCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grasslandbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grasslandbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mudbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mudbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PikachuCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PikachuCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plainsbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plainsbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RowletCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RowletCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SandshrewCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SandshrewCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ShinxCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShinxCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spacebattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spacebattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpinarakCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpinarakCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SquirtleCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquirtleCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tundrabattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tundrabattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="undergroundbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undergroundbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="voidfield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voidfield.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="waterbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waterbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZubatCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZubatCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

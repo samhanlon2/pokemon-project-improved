@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -67,17 +68,62 @@ namespace pokemonBattleImproved
             }
 
             BackgroundImage = Properties.Resources.desert;
-            if (getbgname == "desert") { BackgroundImage = Properties.Resources.desert; }
-            else if (getbgname == "field") { BackgroundImage = Properties.Resources.field; }
-            else if (getbgname == "forest") { BackgroundImage = Properties.Resources.forest; }
-            else if (getbgname == "grassland") { BackgroundImage = Properties.Resources.grass; }
-            else if (getbgname == "plains") { BackgroundImage = Properties.Resources.ground; }
-            else if (getbgname == "mudland") { BackgroundImage = Properties.Resources.Rocky; }
-            else if (getbgname == "tundra") { BackgroundImage = Properties.Resources.Snow; }
-            else if (getbgname == "voidfield") { BackgroundImage = Properties.Resources.space_field; }
-            else if (getbgname == "space") { BackgroundImage = Properties.Resources.space_void; }
-            else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
-            else if (getbgname == "water") { BackgroundImage = Properties.Resources.water; }
+            if (getbgname == "desert") { 
+            BackgroundImage = Properties.Resources.desert; 
+            SoundPlayer dessertb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.desertbattle);
+            dessertb.Play();
+            }
+            else if (getbgname == "field") { 
+            BackgroundImage = Properties.Resources.field;
+            SoundPlayer fieldb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.fieldbattle);
+            fieldb.Play();
+             }
+            else if (getbgname == "forest") {
+            BackgroundImage = Properties.Resources.forest;
+            SoundPlayer forrestb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.forestbattle);
+            forrestb.Play();
+            }
+            else if (getbgname == "grassland") {
+            BackgroundImage = Properties.Resources.grass;
+            SoundPlayer grasslandsb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.grasslandbattle);
+            grasslandsb.Play();
+            }
+            else if (getbgname == "plains") 
+            { 
+            BackgroundImage = Properties.Resources.ground;
+            SoundPlayer plainsb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.plainsbattle);
+            plainsb.Play();
+            }
+            else if (getbgname == "mudland") { 
+            BackgroundImage = Properties.Resources.Rocky;
+            SoundPlayer mudb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.mudbattle);
+            mudb.Play();
+            }
+            else if (getbgname == "tundra") { 
+            BackgroundImage = Properties.Resources.Snow;
+            SoundPlayer tundrab = new SoundPlayer(pokemonBattleImproved.Properties.Resources.tundrabattle);
+            tundrab.Play();
+            }
+            else if (getbgname == "voidfield") {
+            BackgroundImage = Properties.Resources.space_field;
+            SoundPlayer vf = new SoundPlayer(pokemonBattleImproved.Properties.Resources.voidfield);
+            vf.Play();
+            }
+            else if (getbgname == "space") { 
+            BackgroundImage = Properties.Resources.space_void;
+            SoundPlayer spaceb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.spacebattle);
+            spaceb.Play();
+            }
+            else if (getbgname == "underground") { 
+            BackgroundImage = Properties.Resources.underground;
+            SoundPlayer undergroundb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.undergroundbattle);
+            undergroundb.Play();
+            }
+            else if (getbgname == "water") { 
+            BackgroundImage = Properties.Resources.water;
+            SoundPlayer waterb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.waterbattle);
+            waterb.Play();
+            }
 
             player.setPokemon(getpkname);
             PlayerNameLabel.Text = player.getName();

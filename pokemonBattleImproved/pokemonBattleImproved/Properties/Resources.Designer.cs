@@ -91,6 +91,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Calm {
+            get {
+                return ResourceManager.GetStream("Calm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Card_Background {
@@ -196,6 +205,15 @@ namespace pokemonBattleImproved.Properties {
             get {
                 object obj = ResourceManager.GetObject("desert1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream desertbattle {
+            get {
+                return ResourceManager.GetStream("desertbattle", resourceCulture);
             }
         }
         
@@ -438,6 +456,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream fieldbattle {
+            get {
+                return ResourceManager.GetStream("fieldbattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap forest {
@@ -454,6 +481,15 @@ namespace pokemonBattleImproved.Properties {
             get {
                 object obj = ResourceManager.GetObject("forest1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream forestbattle {
+            get {
+                return ResourceManager.GetStream("forestbattle", resourceCulture);
             }
         }
         
@@ -547,6 +583,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream grasslandbattle {
+            get {
+                return ResourceManager.GetStream("grasslandbattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap ground {
@@ -583,6 +628,15 @@ namespace pokemonBattleImproved.Properties {
             get {
                 object obj = ResourceManager.GetObject("Menu Background1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mudbattle {
+            get {
+                return ResourceManager.GetStream("mudbattle", resourceCulture);
             }
         }
         
@@ -692,6 +746,15 @@ namespace pokemonBattleImproved.Properties {
             get {
                 object obj = ResourceManager.GetObject("pikachufronthat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream plainsbattle {
+            get {
+                return ResourceManager.GetStream("plainsbattle", resourceCulture);
             }
         }
         
@@ -1033,6 +1096,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream spacebattle {
+            get {
+                return ResourceManager.GetStream("spacebattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Spinarak_Button_120x120 {
@@ -1191,6 +1263,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream tundrabattle {
+            get {
+                return ResourceManager.GetStream("tundrabattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap underground {
@@ -1201,12 +1282,39 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream undergroundbattle {
+            get {
+                return ResourceManager.GetStream("undergroundbattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream voidfield {
+            get {
+                return ResourceManager.GetStream("voidfield", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap water {
             get {
                 object obj = ResourceManager.GetObject("water", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream waterbattle {
+            get {
+                return ResourceManager.GetStream("waterbattle", resourceCulture);
             }
         }
         
