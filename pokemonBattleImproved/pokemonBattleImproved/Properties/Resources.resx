@@ -475,6 +475,9 @@
   <data name="ElgyemCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ElgyemCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="fieldbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fieldbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="forestbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\forestbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
