@@ -114,7 +114,11 @@ namespace pokemonBattleImproved
             SoundPlayer spaceb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.spacebattle);
             spaceb.Play();
             }
-            else if (getbgname == "underground") { BackgroundImage = Properties.Resources.underground; }
+            else if (getbgname == "underground") { 
+            BackgroundImage = Properties.Resources.underground;
+            SoundPlayer undergroundb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.undergroundbattle);
+            undergroundb.Play();
+            }
             else if (getbgname == "water") { 
             BackgroundImage = Properties.Resources.water;
             SoundPlayer waterb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.waterbattle);

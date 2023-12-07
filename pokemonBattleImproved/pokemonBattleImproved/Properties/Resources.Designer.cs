@@ -1284,6 +1284,15 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream undergroundbattle {
+            get {
+                return ResourceManager.GetStream("undergroundbattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream voidfield {
             get {
                 return ResourceManager.GetStream("voidfield", resourceCulture);
