@@ -478,6 +478,9 @@
   <data name="PikachuCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PikachuCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="plainsbattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plainsbattle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="RowletCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RowletCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

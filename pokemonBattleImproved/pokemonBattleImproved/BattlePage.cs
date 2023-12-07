@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -71,7 +72,12 @@ namespace pokemonBattleImproved
             else if (getbgname == "field") { BackgroundImage = Properties.Resources.field; }
             else if (getbgname == "forest") { BackgroundImage = Properties.Resources.forest; }
             else if (getbgname == "grassland") { BackgroundImage = Properties.Resources.grass; }
-            else if (getbgname == "plains") { BackgroundImage = Properties.Resources.ground; }
+            else if (getbgname == "plains") 
+            { 
+            BackgroundImage = Properties.Resources.ground;
+            SoundPlayer plainsb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.plainsbattle);
+            plainsb.Play();
+            }
             else if (getbgname == "mudland") { BackgroundImage = Properties.Resources.Rocky; }
             else if (getbgname == "tundra") { BackgroundImage = Properties.Resources.Snow; }
             else if (getbgname == "voidfield") { BackgroundImage = Properties.Resources.space_field; }
