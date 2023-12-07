@@ -94,7 +94,11 @@ namespace pokemonBattleImproved
             SoundPlayer plainsb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.plainsbattle);
             plainsb.Play();
             }
-            else if (getbgname == "mudland") { BackgroundImage = Properties.Resources.Rocky; }
+            else if (getbgname == "mudland") { 
+            BackgroundImage = Properties.Resources.Rocky;
+            SoundPlayer mudb = new SoundPlayer(pokemonBattleImproved.Properties.Resources.mudbattle);
+            mudb.Play();
+            }
             else if (getbgname == "tundra") { BackgroundImage = Properties.Resources.Snow; }
             else if (getbgname == "voidfield") {
             BackgroundImage = Properties.Resources.space_field;
