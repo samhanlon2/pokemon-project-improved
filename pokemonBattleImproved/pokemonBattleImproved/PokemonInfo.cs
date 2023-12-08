@@ -131,7 +131,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "sandshrew") 
             {
-                name = "Sandrew";
+                name = "Sandshrew";
                 hp = 50;
                 maxHP= 50;
                 atk= 75;
@@ -340,7 +340,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "elgyem")
             {
-                name = "elgyem";
+                name = "Elgyem";
                 hp = 55;
                 maxHP = 55;
                 atk = 55;
@@ -357,7 +357,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "eevee")
             {
-                name = "eevee";
+                name = "Eevee";
                 hp = 55;
                 maxHP = 55;
                 atk = 55;
@@ -374,7 +374,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "froakie")
             {
-                name = "froakie";
+                name = "Froakie";
                 hp = 41;
                 maxHP = 41;
                 atk = 56;
@@ -391,7 +391,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "pikachu")
             {
-                name = "pikachu";
+                name = "Pikachu";
                 hp = 35;
                 maxHP = 35;
                 atk = 55;
@@ -408,7 +408,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "rowlet")
             {
-                name = "rowlet";
+                name = "Rowlet";
                 hp = 68;
                 maxHP = 68;
                 atk = 55;
@@ -426,7 +426,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "sandshrew")
             {
-                name = "sandrew";
+                name = "Sandshrew";
                 hp = 50;
                 maxHP = 50;
                 atk = 75;
@@ -444,7 +444,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "shinx")
             {
-                name = "shinx";
+                name = "Shinx";
                 hp = 45;
                 maxHP = 45;
                 atk = 65;
@@ -461,7 +461,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "spinarak")
             {
-                name = "spinarak";
+                name = "Spinarak";
                 hp = 40;
                 maxHP = 40;
                 atk = 60;
@@ -478,7 +478,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "squirtle")
             {
-                name = "squirtle";
+                name = "Squirtle";
                 hp = 44;
                 maxHP = 44;
                 atk = 48;
@@ -495,7 +495,7 @@ namespace pokemonBattleImproved
             }
             else if (pokemonPicked == "zubat")
             {
-                name = "zubat";
+                name = "Zubat";
                 hp = 40;
                 maxHP = 40;
                 atk = 45;
