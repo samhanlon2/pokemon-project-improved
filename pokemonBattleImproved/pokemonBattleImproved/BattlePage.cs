@@ -178,12 +178,19 @@ namespace pokemonBattleImproved
             if (player.getHP() == 0)
             {
                 MessageBox.Show(enemy.getName() + " beat you, you lose!");
-            }
+					         		MainMenu goback = new MainMenu();
+								        goback.Show();
+								        this.Hide();
+						      }
             else if (enemy.getHP() == 0)
             {
-                MessageBox.Show(enemy.getName() + " beaten, you win!");
+                
 							         SoundPlayer win = new SoundPlayer(pokemonBattleImproved.Properties.Resources.WIN);
 							         win.Play();
+                MessageBox.Show(enemy.getName() + " beaten, you win!");
+                MainMenu goback = new MainMenu();
+                goback.Show();
+                this.Hide();  
 					       	}
         }
         
