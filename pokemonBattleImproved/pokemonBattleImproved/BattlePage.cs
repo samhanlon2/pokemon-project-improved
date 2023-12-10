@@ -182,7 +182,9 @@ namespace pokemonBattleImproved
             else if (enemy.getHP() == 0)
             {
                 MessageBox.Show(enemy.getName() + " beaten, you win!");
-            }
+							         SoundPlayer win = new SoundPlayer(pokemonBattleImproved.Properties.Resources.WIN);
+							         win.Play();
+					       	}
         }
         
 
