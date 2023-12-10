@@ -215,10 +215,26 @@ namespace pokemonBattleImproved
                 frontShiny = Properties.Resources.zubatfrontshiny;
                 backShiny = Properties.Resources.zubatbackshiny;
             }
+						      else if (pokemonPicked == "Zekrom")
+						      {
+								      name = "Zekrom";
+								      hp = 999;
+								      maxHP = 999;
+								      atk = 999;
+								      def = 999;
+								      speed = 999;
+								      move1.setMove("☢", this);
+								      move2.setMove("☢", this);
+								      move3.setMove("☢", this);
+								      move4.setMove("☢", this);
+								      frontImage = Properties.Resources.zekrom;
+								      backImage = Properties.Resources.zekrom;
+								      frontShiny = Properties.Resources.zekrom;
+								      backShiny = Properties.Resources.zekrom;
+						      }
 
-            
 
-        }
+				}
         public Image getFrontImage()
         {
             return frontImage;

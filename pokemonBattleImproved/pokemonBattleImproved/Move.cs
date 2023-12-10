@@ -229,6 +229,10 @@ namespace MoveClass
                 type = 1;
                 power = 80;
             }
+            else if (name == "☢")
+            { type = 1;
+              power = 999;
+            }
 
         }
 

@@ -1340,6 +1340,25 @@ namespace pokemonBattleImproved.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap zekrom {
+            get {
+                object obj = ResourceManager.GetObject("zekrom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ZekromCry {
+            get {
+                return ResourceManager.GetStream("ZekromCry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Zubat_Button_120x120 {
             get {
                 object obj = ResourceManager.GetObject("Zubat Button 120x120", resourceCulture);
