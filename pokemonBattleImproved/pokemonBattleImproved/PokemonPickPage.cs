@@ -966,9 +966,11 @@ namespace pokemonBattleImproved
 
 				private void PokemonProfilePicture_Click(object sender, EventArgs e)
 				{
-						pokemonPicked = "zubat";
+						pokemonPicked = "Zekrom";
+						PokemonProfilePicture.Image = pokemonBattleImproved.Properties.Resources.zekrom;
 						SoundPlayer zek = new SoundPlayer(pokemonBattleImproved.Properties.Resources.ZekromCry);
 						zek.Play();
+						PokemonSelectionButton.Enabled = true;
 				}
 		}
 }
