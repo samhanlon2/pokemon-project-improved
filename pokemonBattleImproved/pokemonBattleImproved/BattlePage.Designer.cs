@@ -47,7 +47,7 @@
 						// 
 						MoveButton1.BackColor = Color.LightCoral;
 						MoveButton1.FlatStyle = FlatStyle.Popup;
-						MoveButton1.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Regular, GraphicsUnit.Point);
+						MoveButton1.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
 						MoveButton1.ForeColor = Color.Black;
 						MoveButton1.Location = new Point(920, 653);
 						MoveButton1.Name = "MoveButton1";
@@ -99,7 +99,7 @@
 						// 
 						MoveButton2.BackColor = Color.SandyBrown;
 						MoveButton2.FlatStyle = FlatStyle.Popup;
-						MoveButton2.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Regular, GraphicsUnit.Point);
+						MoveButton2.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
 						MoveButton2.ForeColor = Color.Black;
 						MoveButton2.Location = new Point(1170, 653);
 						MoveButton2.Name = "MoveButton2";
@@ -113,7 +113,7 @@
 						// 
 						MoveButton3.BackColor = Color.YellowGreen;
 						MoveButton3.FlatStyle = FlatStyle.Popup;
-						MoveButton3.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Regular, GraphicsUnit.Point);
+						MoveButton3.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
 						MoveButton3.ForeColor = Color.Black;
 						MoveButton3.Location = new Point(920, 767);
 						MoveButton3.Name = "MoveButton3";
@@ -127,7 +127,7 @@
 						// 
 						MoveButton4.BackColor = Color.Turquoise;
 						MoveButton4.FlatStyle = FlatStyle.Popup;
-						MoveButton4.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Regular, GraphicsUnit.Point);
+						MoveButton4.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
 						MoveButton4.ForeColor = Color.Black;
 						MoveButton4.Location = new Point(1170, 767);
 						MoveButton4.Name = "MoveButton4";
