@@ -110,6 +110,15 @@ namespace pokemonBattleImproved.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream CelesticaFlute {
+            get {
+                return ResourceManager.GetStream("CelesticaFlute", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Charmander_Button_120x120 {
@@ -569,6 +578,15 @@ namespace pokemonBattleImproved.Properties {
             get {
                 object obj = ResourceManager.GetObject("froakiefrontshiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream GameOver {
+            get {
+                return ResourceManager.GetStream("GameOver", resourceCulture);
             }
         }
         
