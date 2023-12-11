@@ -665,6 +665,7 @@
 						Controls.Add(ProfileCardBackground);
 						Name = "PokemonSelection";
 						Text = "Pokemon Selection";
+						FormClosed += PokemonSelection_FormClosed;
 						Load += PokemonSelection_Load;
 						((System.ComponentModel.ISupportInitialize)PokemonProfilePicture).EndInit();
 						((System.ComponentModel.ISupportInitialize)pokemonLabel).EndInit();

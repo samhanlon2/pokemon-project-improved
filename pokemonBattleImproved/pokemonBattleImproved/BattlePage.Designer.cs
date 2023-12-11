@@ -192,6 +192,7 @@
 						Name = "BattlePage";
 						RightToLeftLayout = true;
 						Text = "battlePage";
+						FormClosed += BattlePage_FormClosed;
 						Load += Form2_Load;
 						((System.ComponentModel.ISupportInitialize)playerBox1).EndInit();
 						((System.ComponentModel.ISupportInitialize)enemyImage).EndInit();

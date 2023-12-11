@@ -538,4 +538,10 @@
   <data name="ZekromCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ZekromCry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="CelesticaFlute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CelesticaFlute.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameOver.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

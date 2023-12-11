@@ -972,5 +972,12 @@ namespace pokemonBattleImproved
 						zek.Play();
 						PokemonSelectionButton.Enabled = true;
 				}
+
+				private void PokemonSelection_FormClosed(object sender, FormClosedEventArgs e)
+				{
+						SoundPlayer leave = new SoundPlayer(pokemonBattleImproved.Properties.Resources.CelesticaFlute);
+						leave.Play();
+						Environment.Exit(0);
+				}
 		}
 }

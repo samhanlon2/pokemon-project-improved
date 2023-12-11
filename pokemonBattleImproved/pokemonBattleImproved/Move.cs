@@ -74,17 +74,17 @@ namespace MoveClass
                 type = 1;
                 power = 40;
             }
-            else if (name == "Rapid spin")
+            else if (name == "Rapid Spin")
             {
                 type = 1;
                 power = 20;
             }
-            else if (name == "Fury cutter")
+            else if (name == "Fury Cutter")
             {
                 type = 1;
                 power = 40;
             }
-            else if (name == "Defense curl")
+            else if (name == "Defense Curl")
             {
                 type = 3;
                 defIncrease = 10;
@@ -99,7 +99,7 @@ namespace MoveClass
                 type = 1;
                 power = 40;
             }
-            else if (name == "Quick attack")
+            else if (name == "Quick Attack")
             {
                 type = 1;
                 power = 40;
@@ -109,22 +109,22 @@ namespace MoveClass
                 type = 1;
                 power = 30;
             }
-            else if (name == "Scratch")
-            {
-                type = 1;
-                power = 40;
-            }
+           // else if (name == "Scratch")
+            //{
+              //  type = 1;
+               // power = 40;
+            //}
             else if (name == "Ember")
             {
                 type = 1;
                 power = 40;
             }
-            else if (name == "Dragon breath")
+            else if (name == "Dragon Breath")
             {
                 type = 1;
                 power = 60;
             }
-            else if (name == "Fire fang")
+            else if (name == "Fire Fang")
             {
                 type = 1;
                 power = 65;
@@ -134,7 +134,7 @@ namespace MoveClass
                 type = 1;
                 power = 40;
             }
-            else if (name == "Thunder shock")
+            else if (name == "Thunder Shock")
             {
                 type = 1;
                 power = 40;
@@ -149,7 +149,7 @@ namespace MoveClass
                 type = 1;
                 power = 65;
             }
-            else if (name == "Leech life")
+            else if (name == "Leech Life")
             {
                 type = 1;
                 power = 50;
@@ -159,7 +159,7 @@ namespace MoveClass
                 type = 1;
                 power = 65;
             }
-            else if (name == "Wing attack")
+            else if (name == "Wing Attack")
             {
                 type = 1;
                 power = 60;
@@ -169,7 +169,7 @@ namespace MoveClass
                 type = 1;
                 power = 60;
             }
-            else if (name == "Take down")
+            else if (name == "Take Down")
             {
                 type = 1;
                 power = 90;
@@ -179,10 +179,10 @@ namespace MoveClass
                 type = 1;
                 power = 60;
             }
-            else if (name == "Poision sting")
+            else if (name == "Poison Sting")
             {
                 type = 1;
-                power = 15;
+                power = 30; //was 15
             }
             else if (name == "Absorb")
             {
@@ -194,12 +194,12 @@ namespace MoveClass
                 type = 1;
                 power = 20;
             }
-            else if (name == "Sucker punch")
+            else if (name == "Sucker Punch")
             {
                 type = 1;
                 power = 70;
             }
-            else if (name == "Water gun")
+            else if (name == "Water Gun")
             {
                 type = 1;
                 power = 40;
@@ -214,12 +214,12 @@ namespace MoveClass
                 type = 3;
                 defIncrease = 10;
             }
-            else if (name == "Thunder shock")
+            else if (name == "Thunder Shock")
             {
                 type = 1;
                 power = 40;
             }
-            else if (name == "Electro ball")
+            else if (name == "Electro Ball")
             {
                 type = 1;
                 power = 45;
