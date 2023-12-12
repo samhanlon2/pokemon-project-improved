@@ -203,7 +203,7 @@ namespace pokemonBattleImproved
 								SoundPlayer loose = new SoundPlayer(pokemonBattleImproved.Properties.Resources.GameOver);
 								loose.Play();
 								MessageBox.Show(enemy.getName() + " beat you, you lose!");
-								Environment.Exit(0);
+								//Environment.Exit(0);
 							//	MainMenu goback = new MainMenu();
 								//goback.Show();
 								//this.Hide();
